@@ -1,5 +1,6 @@
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
+from typing import List
 import json
 
 app = FastAPI()
@@ -14,7 +15,7 @@ class TeaType(BaseModel):
     name: str
     description: str
 
-@app.get("/teaTypes", response_model=list[TeaType])
+@app.get("/teaTypes", response_model=List[TeaType])
 def read_tea_types():
     return data["teaTypes"]
 
