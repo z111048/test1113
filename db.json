@@ -1,0 +1,4250 @@
+{
+  "teaTypes": [
+    {
+      "id": 1,
+      "name": "紅茶",
+      "description": "紅茶是全發酵的茶，具有濃厚的風味和高咖啡因含量。"
+    },
+    {
+      "id": 2,
+      "name": "綠茶",
+      "description": "綠茶是未發酵的茶，具有清新的味道和較低的咖啡因含量。"
+    },
+    {
+      "id": 3,
+      "name": "奶茶",
+      "description": "奶茶通常是以紅茶為基底，加入牛奶或奶精製成。"
+    },
+    {
+      "id": 4,
+      "name": "烏龍茶",
+      "description": "烏龍茶是半發酵的茶，介於綠茶和紅茶之間，具有獨特的香氣和味道。"
+    },
+    {
+      "id": 5,
+      "name": "冬瓜茶",
+      "description": "冬瓜茶是由冬瓜糖漿和茶葉（通常是綠茶或紅茶）製成的，味道甜美。"
+    },
+    {
+      "id": 6,
+      "name": "麥茶",
+      "description": "麥茶是由烘焙過的麥芽製成，無咖啡因，適合全家飲用。"
+    },
+    {
+      "id": 7,
+      "name": "牛奶",
+      "description": "牛奶不是茶，但經常用作飲料或奶茶的成分。"
+    },
+    {
+      "id": 8,
+      "name": "鮮果汁",
+      "description": "鮮果汁是從新鮮水果榨取的，可用作飲料或作為飲料的一部分。"
+    }
+  ],
+  "ingredients": [
+    {
+      "id": 1,
+      "name": "珍珠",
+      "description": "珍珠是由木薯粉製成的，具有Q彈的口感。"
+    },
+    {
+      "id": 2,
+      "name": "波霸",
+      "description": "波霸是比珍珠更大的木薯粉球，通常在奶茶中使用。"
+    },
+    {
+      "id": 3,
+      "name": "椰果",
+      "description": "椰果是由椰汁和糖製成，通常用於冰沙或奶茶中。"
+    },
+    {
+      "id": 4,
+      "name": "仙草",
+      "description": "仙草是一種草本植物，經常用於製作甜品或飲料。"
+    },
+    {
+      "id": 5,
+      "name": "布丁",
+      "description": "布丁是一種用牛奶和糖製成的甜品，也可以用作奶茶的配料。"
+    },
+    {
+      "id": 6,
+      "name": "奶蓋",
+      "description": "奶蓋是由鮮奶油和牛奶打發製成，用作飲料的頂層。"
+    }
+  ],
+  "shops": [
+    {
+      "id": 1,
+      "name": "大苑子",
+      "Description": "大苑子以傳達農業價值為核心，致力於發掘並支持用心經營的果農，提供高品質、可追溯源頭的水果製品。堅持從食品源頭為顧客提供安心的品質保證。",
+      "uber": true,
+      "foodpanda": true,
+      "hasEvent": true,
+      "recommendedProduct": "芒果冰沙/愛文翡翠",
+      "eventPartner": "乖乖聯名",
+      "officialWebsite": "https://www.dayungs.com/",
+      "logo": "https://raw.githubusercontent.com/ahmomoz/WhatDrink17/main/assets/images/logos/logo-01.png",
+      "menu": "https://raw.githubusercontent.com/ahmomoz/WhatDrink17/main/assets/images/drinks/menus-01.jpg"
+    },
+    {
+      "id": 2,
+      "name": "麻古茶坊",
+      "Description": "麻古茶坊是一家專注於傳統與創新結合的茶飲品牌，致力於提供新鮮、健康的飲品選擇。麻古茶坊的特色在於其獨特的茶葉選擇和創新飲品配方。",
+      "uber": true,
+      "foodpanda": false,
+      "hasEvent": false,
+      "recommendedProduct": "芝芝錫蘭紅茶/梅子冰茶",
+      "eventPartner": "X",
+      "officialWebsite": "https://macutea.com.tw/",
+      "logo": "https://raw.githubusercontent.com/ahmomoz/WhatDrink17/main/assets/images/logos/logo-02.png",
+      "menu": "https://raw.githubusercontent.com/ahmomoz/WhatDrink17/main/assets/images/drinks/menus-02.jpg"
+    },
+    {
+      "id": 3,
+      "name": "迷客夏",
+      "Description": "迷客夏以獨特的茶飲創意和高品質原料聞名，不斷推陳出新，提供顧客多樣化的選擇。其注重茶葉的品質與新鮮度，致力於為消費者帶來最佳的飲茶體驗。",
+      "uber": true,
+      "foodpanda": true,
+      "hasEvent": true,
+      "recommendedProduct": "伯爵紅茶拿鐵",
+      "eventPartner": "KINGJUN",
+      "officialWebsite": "https://www.milksha.com/index.php",
+      "logo": "https://raw.githubusercontent.com/ahmomoz/WhatDrink17/main/assets/images/logos/logo-03.jpg",
+      "menu": "https://raw.githubusercontent.com/ahmomoz/WhatDrink17/main/assets/images/drinks/menus-03.jpg"
+    },
+    {
+      "id": 4,
+      "name": "五桐號",
+      "Description": "五桐號是一家結合傳統茶文化與現代創新的茶飲店，專注於提供高品質的茶葉和獨特的飲品。其特色在於精心挑選的茶葉與創新的飲品組合。",
+      "uber": true,
+      "foodpanda": true,
+      "hasEvent": true,
+      "recommendedProduct": "五桐茶",
+      "eventPartner": "DinoTaeng",
+      "officialWebsite": "https://www.wootea.com/",
+      "logo": "https://raw.githubusercontent.com/ahmomoz/WhatDrink17/main/assets/images/logos/logo-04.jpg",
+      "menu": "https://raw.githubusercontent.com/ahmomoz/WhatDrink17/main/assets/images/drinks/menus-04.jpg"
+    },
+    {
+      "id": 5,
+      "name": "50嵐",
+      "Description": "50嵐作為一家著名的連鎖茶飲品牌，以其高品質的茶葉和豐富的飲品選擇聞名。堅持使用新鮮茶葉，為顧客提供一系列健康、美味的茶飲。",
+      "uber": true,
+      "foodpanda": true,
+      "hasEvent": false,
+      "recommendedProduct": "四季春+珍波椰",
+      "eventPartner": "X",
+      "officialWebsite": "http://50lan.com/web/news.asp",
+      "logo": "https://raw.githubusercontent.com/ahmomoz/WhatDrink17/main/assets/images/logos/logo-05.jpg",
+      "menu": "https://raw.githubusercontent.com/ahmomoz/WhatDrink17/main/assets/images/drinks/menus-05.jpg"
+    },
+    {
+      "id": 6,
+      "name": "COMEBUY",
+      "Description": "COMEBUY以其創新的飲品和一流的顧客服務聞名。其特色在於多樣化的飲品選擇和對高品質原料的堅持，確保每一杯飲品都能帶給顧客最佳的品味體驗。",
+      "uber": true,
+      "foodpanda": true,
+      "hasEvent": false,
+      "recommendedProduct": "海神/紅茶拿鐵",
+      "eventPartner": "X",
+      "officialWebsite": "https://www.comebuy2002.com.tw/",
+      "logo": "https://raw.githubusercontent.com/ahmomoz/WhatDrink17/main/assets/images/logos/logo-06.png",
+      "menu": "https://raw.githubusercontent.com/ahmomoz/WhatDrink17/main/assets/images/drinks/menus-06.jpg"
+    },
+    {
+      "id": 7,
+      "name": "老賴茶棧",
+      "Description": "老賴茶棧是一家結合傳統與現代的茶飲品牌，以其獨特的風味和高品質茶葉聞名。專注於提供手工製作的茶飲，給顧客帶來正宗的台灣茶文化體驗。",
+      "uber": true,
+      "foodpanda": true,
+      "hasEvent": false,
+      "recommendedProduct": "老賴紅茶/冬瓜檸檬",
+      "eventPartner": "X",
+      "officialWebsite": "https://www.liketeashop.com/",
+      "logo": "https://raw.githubusercontent.com/ahmomoz/WhatDrink17/main/assets/images/logos/logo-07.png",
+      "menu": "https://raw.githubusercontent.com/ahmomoz/WhatDrink17/main/assets/images/drinks/menus-07.jpg"
+    },
+    {
+      "id": 8,
+      "name": "得正",
+      "Description": "得正是一家注重傳統製茶工藝和創新配方的茶飲品牌。其特色在於精選的茶葉和獨特的飲品創意，致力於提供健康、美味的茶飲選擇。",
+      "uber": true,
+      "foodpanda": false,
+      "hasEvent": false,
+      "recommendedProduct": "檸檬春烏龍/芝士奶蓋春烏龍",
+      "eventPartner": "X",
+      "officialWebsite": "https://dejeng.com/",
+      "logo": "https://raw.githubusercontent.com/ahmomoz/WhatDrink17/main/assets/images/logos/logo-08.jpg",
+      "menu": "https://raw.githubusercontent.com/ahmomoz/WhatDrink17/main/assets/images/drinks/menus-08.jpg"
+    },
+    {
+      "id": 9,
+      "name": "茶湯會",
+      "Description": "茶湯會以其多樣化的茶飲選擇和一貫的高品質聞名。專注於提供新鮮、健康的茶飲，結合傳統與現代的飲品創意，為顧客帶來獨特的品味體驗。",
+      "uber": true,
+      "foodpanda": true,
+      "hasEvent": false,
+      "recommendedProduct": "觀音拿鐵",
+      "eventPartner": "X",
+      "officialWebsite": "https://tw.tp-tea.com/",
+      "logo": "https://raw.githubusercontent.com/ahmomoz/WhatDrink17/main/assets/images/logos/logo-09.png",
+      "menu": "https://raw.githubusercontent.com/ahmomoz/WhatDrink17/main/assets/images/drinks/menus-09.jpg"
+    },
+    {
+      "id": 10,
+      "name": "抿茶",
+      "Description": "抿茶專注於提供精緻、健康的茶飲，以高品質的茶葉和創新的飲品配方聞名。其致力於為顧客提供一種既傳統又現代的茶飲體驗。",
+      "uber": true,
+      "foodpanda": true,
+      "hasEvent": false,
+      "recommendedProduct": "海鹽奶蓋琥珀烏龍",
+      "eventPartner": "X",
+      "officialWebsite": "https://www.mincha.com.tw/",
+      "logo": "https://raw.githubusercontent.com/ahmomoz/WhatDrink17/main/assets/images/logos/logo-10.png",
+      "menu": "https://raw.githubusercontent.com/ahmomoz/WhatDrink17/main/assets/images/drinks/menus-10.jpg"
+    },
+    {
+      "id": 11,
+      "name": "双十八木",
+      "Description": "双十八木是一家結合傳統與創新的茶飲店，專注於提供高品質的茶葉和獨特的飲品。其特色在於融合多種風味，創造出令人難忘的茶飲體驗。",
+      "uber": true,
+      "foodpanda": false,
+      "hasEvent": false,
+      "recommendedProduct": "麥湯拿鐵/小時候秘密/新南黑糖牛乳",
+      "eventPartner": "X",
+      "officialWebsite": "https://www.double18tea.tw/",
+      "logo": "https://raw.githubusercontent.com/ahmomoz/WhatDrink17/main/assets/images/logos/logo-11.png",
+      "menu": "https://raw.githubusercontent.com/ahmomoz/WhatDrink17/main/assets/images/drinks/menus-11.jpg"
+    },
+    {
+      "id": 12,
+      "name": "可不可",
+      "Description": "可不可以其創新的茶飲配方和優質的客戶服務聞名。堅持使用新鮮原料，提供多樣化的健康飲品選擇，給顧客帶來獨一無二的品味體驗。",
+      "uber": true,
+      "foodpanda": true,
+      "hasEvent": false,
+      "recommendedProduct": "春芽冷露/熟成歐蕾",
+      "eventPartner": "X",
+      "officialWebsite": "https://www.kebuke.com/",
+      "logo": "https://raw.githubusercontent.com/ahmomoz/WhatDrink17/main/assets/images/logos/logo-12.png",
+      "menu": "https://raw.githubusercontent.com/ahmomoz/WhatDrink17/main/assets/images/drinks/menus-12.jpg"
+    },
+    {
+      "id": 13,
+      "name": "烏弄",
+      "Description": "烏弄是一家專注於傳統台灣茶與創新飲品的茶飲店，以其獨特的茶葉選擇和創新的飲品配方聞名。致力於提供最純粹、最有特色的茶飲體驗。",
+      "uber": true,
+      "foodpanda": true,
+      "hasEvent": false,
+      "recommendedProduct": "桂花凍胭脂紅玉",
+      "eventPartner": "X",
+      "officialWebsite": "https://unocha.com.tw/",
+      "logo": "https://raw.githubusercontent.com/ahmomoz/WhatDrink17/main/assets/images/logos/logo-13.jpg",
+      "menu": "https://raw.githubusercontent.com/ahmomoz/WhatDrink17/main/assets/images/drinks/menus-13.jpg"
+    },
+    {
+      "id": 14,
+      "name": "珍煮丹",
+      "Description": "珍煮丹以其高品質的珍珠奶茶和創新飲品而聞名。注重原料的新鮮和品質，結合傳統與現代的飲品創意，為顧客提供一種獨特的飲茶體驗。",
+      "uber": true,
+      "foodpanda": true,
+      "hasEvent": true,
+      "recommendedProduct": "黑糖珍珠鮮奶",
+      "eventPartner": "hahababy",
+      "officialWebsite": "https://www.truedan.com.tw/",
+      "logo": "https://raw.githubusercontent.com/ahmomoz/WhatDrink17/main/assets/images/logos/logo-14.jpg",
+      "menu": "https://raw.githubusercontent.com/ahmomoz/WhatDrink17/main/assets/images/drinks/menus-14.jpg"
+    },
+    {
+      "id": 15,
+      "name": "曼士茶",
+      "Description": "曼士茶專注於提供高品質的茶飲和創新的飲品配方。其特色在於獨特的茶葉選擇和對細節的關注，致力於為顧客提供一個優雅的茶飲體驗。",
+      "uber": true,
+      "foodpanda": true,
+      "hasEvent": false,
+      "recommendedProduct": "乳酪奶蓋茶(金烏)",
+      "eventPartner": "X",
+      "officialWebsite": "https://www.facebook.com/mansteataiwan/?locale=zh_TW",
+      "logo": "https://raw.githubusercontent.com/ahmomoz/WhatDrink17/main/assets/images/logos/logo-15.jpg",
+      "menu": "https://raw.githubusercontent.com/ahmomoz/WhatDrink17/main/assets/images/drinks/menus-15.jpg"
+    },
+    {
+      "id": 16,
+      "name": "CoCo都可",
+      "Description": "CoCo都可以其廣泛的飲品選擇和一貫的高品質聞名。其堅持使用新鮮原料，為顧客提供健康、美味的茶飲，並在全球範圍內擁有廣大的顧客群。",
+      "uber": true,
+      "foodpanda": true,
+      "hasEvent": false,
+      "recommendedProduct": "奶茶三兄弟",
+      "eventPartner": "X",
+      "officialWebsite": "https://www.findcoupon.tw/showroom-1081/store/%E6%96%B0%E5%8C%97%E5%B8%82",
+      "logo": "https://raw.githubusercontent.com/ahmomoz/WhatDrink17/main/assets/images/logos/logo-16.png",
+      "menu": "https://raw.githubusercontent.com/ahmomoz/WhatDrink17/main/assets/images/drinks/menus-16.jpg"
+    },
+    {
+      "id": 17,
+      "name": "清心",
+      "Description": "清心是一家專注於健康茶飲的品牌，以其新鮮的茶葉和創新的飲品配方聞名。致力於為顧客提供一個舒適的飲茶環境和優質的服務。",
+      "uber": true,
+      "foodpanda": true,
+      "hasEvent": false,
+      "recommendedProduct": "烏龍綠茶/烏龍奶茶",
+      "eventPartner": "X",
+      "officialWebsite": "https://www.chingshin.tw/product.php",
+      "logo": "https://raw.githubusercontent.com/ahmomoz/WhatDrink17/main/assets/images/logos/logo-17.png",
+      "menu": "https://raw.githubusercontent.com/ahmomoz/WhatDrink17/main/assets/images/drinks/menus-17.jpg"
+    },
+    {
+      "id": 18,
+      "name": "武林茶",
+      "Description": "武林茶結合傳統茶藝與現代創新，提供多樣化的茶飲選擇。其特色在於精心挑選的茶葉和獨特的飲品創意，為顧客提供了一個獨特的飲茶體驗。",
+      "uber": true,
+      "foodpanda": true,
+      "hasEvent": false,
+      "recommendedProduct": "凍春山/甘蔗青",
+      "eventPartner": "X",
+      "officialWebsite": "https://www.wulintea.com/",
+      "logo": "https://raw.githubusercontent.com/ahmomoz/WhatDrink17/main/assets/images/logos/logo-18.jpg",
+      "menu": "https://raw.githubusercontent.com/ahmomoz/WhatDrink17/main/assets/images/drinks/menus-18.jpg"
+    }
+  ],
+  "shopBranches": [
+    {
+      "storeId": 1,
+      "shopId": 1,
+      "branchName": "板橋中山店",
+      "phone": "02-29582567",
+      "businessHours": "AM10:30-PM9:00",
+      "address": "新北市板橋區中山路二段185號"
+    },
+    {
+      "storeId": 2,
+      "shopId": 1,
+      "branchName": "新店中正店",
+      "phone": "02-22180112",
+      "businessHours": "AM9:00-PM9:00",
+      "address": "新北市新店區中正路495號"
+    },
+    {
+      "storeId": 3,
+      "shopId": 1,
+      "branchName": "永和樂華店",
+      "phone": "02-29257008",
+      "businessHours": "AM11:30-PM10:00",
+      "address": "新北市永和區永和路一段146號"
+    },
+    {
+      "storeId": 4,
+      "shopId": 1,
+      "branchName": "土城延和店",
+      "phone": "02-82615000",
+      "businessHours": "AM10:30-PM9:30",
+      "address": "新北市土城區延和路37號"
+    },
+    {
+      "storeId": 5,
+      "shopId": 1,
+      "branchName": "土城中央店",
+      "phone": "02-22607222",
+      "businessHours": "AM10:30-PM9:00",
+      "address": "新北市土城區中央路二段242號"
+    },
+    {
+      "storeId": 6,
+      "shopId": 1,
+      "branchName": "三峽和平店",
+      "phone": "02-26722836",
+      "businessHours": "AM10:00-PM10:00",
+      "address": "新北市三峽區和平街101號"
+    },
+    {
+      "storeId": 7,
+      "shopId": 1,
+      "branchName": "三重五華店",
+      "phone": "02-89858021",
+      "businessHours": "AM11:00-PM9:00",
+      "address": "新北市三重區五華街101號"
+    },
+    {
+      "storeId": 8,
+      "shopId": 1,
+      "branchName": "新莊幸福店",
+      "phone": "02-29919175",
+      "businessHours": "AM10:00-PM10:00",
+      "address": "新北市新莊區福壽街75號"
+    },
+    {
+      "storeId": 9,
+      "shopId": 1,
+      "branchName": "新莊富國店",
+      "phone": "02-29015565",
+      "businessHours": "AM10:30-PM9:30",
+      "address": "新北市新莊區富國路91號"
+    },
+    {
+      "storeId": 10,
+      "shopId": 2,
+      "branchName": "板橋中山店",
+      "phone": "02-29510177",
+      "businessHours": "AM10:00-PM21:00",
+      "address": "新北市板橋區中山路二段110號"
+    },
+    {
+      "storeId": 11,
+      "shopId": 2,
+      "branchName": "三重中華店",
+      "phone": "02-29800071",
+      "businessHours": "AM10:00-PM21:00",
+      "address": "新北市三重區中華路97號"
+    },
+    {
+      "storeId": 12,
+      "shopId": 2,
+      "branchName": "新莊中原店",
+      "phone": "02-85227722",
+      "businessHours": "AM10:00-PM21:00",
+      "address": "新北市新莊區中原路149號"
+    },
+    {
+      "storeId": 13,
+      "shopId": 2,
+      "branchName": "新北蘆洲光華店",
+      "phone": "02-82816926",
+      "businessHours": "AM10:00-PM21:00",
+      "address": "新北市蘆洲區光華路126號"
+    },
+    {
+      "storeId": 14,
+      "shopId": 2,
+      "branchName": "新北淡水英專店",
+      "phone": "02-26210668",
+      "businessHours": "AM10:00-PM21:00",
+      "address": "新北市淡水區英專路64號"
+    },
+    {
+      "storeId": 15,
+      "shopId": 2,
+      "branchName": "板橋新埔店",
+      "phone": "02-22521880",
+      "businessHours": "AM10:00-PM21:00",
+      "address": "新北市板橋區文化路一段321號"
+    },
+    {
+      "storeId": 16,
+      "shopId": 2,
+      "branchName": "永和福和店",
+      "phone": "02-29240178",
+      "businessHours": "AM10:00-PM21:00",
+      "address": "新北市永和區福和路229之2號"
+    },
+    {
+      "storeId": 17,
+      "shopId": 2,
+      "branchName": "中和南勢角店",
+      "phone": "02-29466060",
+      "businessHours": "AM10:00-PM21:00",
+      "address": "新北市中和區興南路一段41號"
+    },
+    {
+      "storeId": 18,
+      "shopId": 2,
+      "branchName": "三重正義店",
+      "phone": "02-29800881",
+      "businessHours": "AM10:00-PM21:00",
+      "address": "新北市三重區正義北路61號"
+    },
+    {
+      "storeId": 19,
+      "shopId": 2,
+      "branchName": "新莊幸福店",
+      "phone": "02-29905959",
+      "businessHours": "AM10:00-PM21:00",
+      "address": "新北市新莊區幸福路767號"
+    },
+    {
+      "storeId": 20,
+      "shopId": 2,
+      "branchName": "江翠松柏店",
+      "phone": "02-22500400",
+      "businessHours": "AM10:00-PM21:00",
+      "address": "新北市板橋區松柏街37號"
+    },
+    {
+      "storeId": 21,
+      "shopId": 2,
+      "branchName": "中和中和店",
+      "phone": "02-82458641",
+      "businessHours": "AM10:00-PM21:00",
+      "address": "新北市中和區中和路34號"
+    },
+    {
+      "storeId": 22,
+      "shopId": 2,
+      "branchName": "新莊富國店",
+      "phone": "02-29029666",
+      "businessHours": "AM10:00-PM21:00",
+      "address": "新北市新莊區富國路72號"
+    },
+    {
+      "storeId": 23,
+      "shopId": 2,
+      "branchName": "新莊新泰店",
+      "phone": "02-89928666",
+      "businessHours": "AM10:00-PM21:00",
+      "address": "新北市新莊區新泰路214號"
+    },
+    {
+      "storeId": 24,
+      "shopId": 2,
+      "branchName": "板橋四川店",
+      "phone": "02-29525222",
+      "businessHours": "AM10:00-PM21:00",
+      "address": "新北市板橋區四川路一段206號"
+    },
+    {
+      "storeId": 25,
+      "shopId": 3,
+      "branchName": "新北板橋華興店",
+      "phone": "02-8951-0587",
+      "businessHours": "AM10:00-PM21:00",
+      "address": "新北市板橋區華興街38號"
+    },
+    {
+      "storeId": 26,
+      "shopId": 3,
+      "branchName": "新北新店碧潭店",
+      "phone": "02-29189898",
+      "businessHours": "AM10:00-PM21:00",
+      "address": "新北市新店區光明街5號"
+    },
+    {
+      "storeId": 27,
+      "shopId": 3,
+      "branchName": "新北三重店",
+      "phone": "02-8985-9692",
+      "businessHours": "AM10:00-PM21:00",
+      "address": "24151 新北市三重區五華街138號"
+    },
+    {
+      "storeId": 28,
+      "shopId": 3,
+      "branchName": "新北板橋店",
+      "phone": "02-2955-3269",
+      "businessHours": "AM10:00-PM21:00",
+      "address": "22067 新北市板橋區中山路二段114號"
+    },
+    {
+      "storeId": 29,
+      "shopId": 3,
+      "branchName": "新北新莊店",
+      "phone": "02-2276-5634",
+      "businessHours": "AM10:00-PM21:00",
+      "address": "24249 新北市新莊區中平路111號"
+    },
+    {
+      "storeId": 30,
+      "shopId": 3,
+      "branchName": "新北新店店",
+      "phone": "02-2913-6058",
+      "businessHours": "AM10:00-PM21:00",
+      "address": "23145 新北市新店區寶橋路45號"
+    },
+    {
+      "storeId": 31,
+      "shopId": 3,
+      "branchName": "新北板橋四維店",
+      "phone": "02-8259-8555",
+      "businessHours": "AM10:00-PM21:00",
+      "address": "22048 新北市板橋區四維路174-2號"
+    },
+    {
+      "storeId": 32,
+      "shopId": 3,
+      "branchName": "新北蘆洲店",
+      "phone": "02-8282-8670",
+      "businessHours": "AM10:00-PM21:00",
+      "address": "24755 新北市蘆洲區光華路115號"
+    },
+    {
+      "storeId": 33,
+      "shopId": 3,
+      "branchName": "新北板中店",
+      "phone": "02-2272-0003",
+      "businessHours": "AM10:00-PM21:00",
+      "address": "22054 新北市板橋區中正路271號"
+    },
+    {
+      "storeId": 34,
+      "shopId": 3,
+      "branchName": "新北中原店",
+      "phone": "02-2277-5647",
+      "businessHours": "AM10:00-PM21:00",
+      "address": "24251 新北市新莊區中原路139號"
+    },
+    {
+      "storeId": 35,
+      "shopId": 3,
+      "branchName": "新北淡大店",
+      "phone": "02-2629-5960",
+      "businessHours": "AM10:00-PM21:00",
+      "address": "25148 新北市淡水區北新路182巷56號"
+    },
+    {
+      "storeId": 36,
+      "shopId": 3,
+      "branchName": "新北新店中正店",
+      "phone": "02-2218-8080",
+      "businessHours": "AM10:00-PM21:00",
+      "address": "23141 新北市新店區中正路510-1號"
+    },
+    {
+      "storeId": 37,
+      "shopId": 3,
+      "branchName": "新北輔大店",
+      "phone": "02-2901-7167",
+      "businessHours": "AM10:00-PM21:00",
+      "address": "24255 新北市新莊區中正路516-31號"
+    },
+    {
+      "storeId": 38,
+      "shopId": 3,
+      "branchName": "新北新店安康店",
+      "phone": "02-8666-8399",
+      "businessHours": "AM10:00-PM21:00",
+      "address": "23154 新北市新店區安康路二段148號"
+    },
+    {
+      "storeId": 39,
+      "shopId": 3,
+      "branchName": "新北板橋車站店(櫃位門市)",
+      "phone": "02-2965-4909",
+      "businessHours": "AM10:00-PM21:00",
+      "address": "22041 新北市板橋區縣民大道二段7號"
+    },
+    {
+      "storeId": 40,
+      "shopId": 4,
+      "branchName": "新北 板橋中山店",
+      "phone": "02-29588977",
+      "businessHours": "AM10:00-PM21:00",
+      "address": "新北市板橋區中山路一段92號"
+    },
+    {
+      "storeId": 41,
+      "shopId": 4,
+      "branchName": "新北 板橋莒光店",
+      "phone": "02-82536600",
+      "businessHours": "AM10:00-PM21:00",
+      "address": "新北市板橋區莒光路26號1樓"
+    },
+    {
+      "storeId": 42,
+      "shopId": 4,
+      "branchName": "新北 板橋埔墘店",
+      "phone": "02-29522518",
+      "businessHours": "AM10:00-PM21:00",
+      "address": "新北市板橋區中山路二段167號"
+    },
+    {
+      "storeId": 43,
+      "shopId": 4,
+      "branchName": "新北 板橋中正店",
+      "phone": "02-29600100",
+      "businessHours": "AM10:00-PM21:00",
+      "address": "新北市板橋區中正路201號"
+    },
+    {
+      "storeId": 44,
+      "shopId": 4,
+      "branchName": "新北 三重文化北店",
+      "phone": "02-29871260",
+      "businessHours": "AM10:00-PM21:00",
+      "address": "新北市三重區文化北路20之一號"
+    },
+    {
+      "storeId": 45,
+      "shopId": 4,
+      "branchName": "新北 淡水英專店",
+      "phone": "02-26250162",
+      "businessHours": "AM10:00-PM21:00",
+      "address": "新北市淡水區英專路62號"
+    },
+    {
+      "storeId": 46,
+      "shopId": 4,
+      "branchName": "新北 新店大坪林店",
+      "phone": "02-29107123",
+      "businessHours": "AM10:00-PM21:00",
+      "address": "新北市新店區北新路三段156號1樓"
+    },
+    {
+      "storeId": 47,
+      "shopId": 4,
+      "branchName": "新北 新莊中和店",
+      "phone": "02-22760738",
+      "businessHours": "AM10:00-PM21:00",
+      "address": "新北市新莊區中和街157號1樓"
+    },
+    {
+      "storeId": 48,
+      "shopId": 4,
+      "branchName": "新北 蘆洲民族店",
+      "phone": "02-22850595",
+      "businessHours": "AM10:00-PM21:00",
+      "address": "新北市蘆洲區民族路116號"
+    },
+    {
+      "storeId": 49,
+      "shopId": 4,
+      "branchName": "板橋 中正店",
+      "phone": "02-29600100",
+      "businessHours": "AM10:00-PM21:00",
+      "address": "新北市板橋區中正路201號"
+    },
+    {
+      "storeId": 50,
+      "shopId": 4,
+      "branchName": "新北 蘆洲光華店",
+      "phone": "02-22891111",
+      "businessHours": "AM10:00-PM21:00",
+      "address": "新北市蘆洲區光華路124號"
+    },
+    {
+      "storeId": 51,
+      "shopId": 4,
+      "branchName": "新北 新莊輔大店",
+      "phone": "02-29081619",
+      "businessHours": "AM10:00-PM21:00",
+      "address": "新北市新莊區建國一路15號"
+    },
+    {
+      "storeId": 52,
+      "shopId": 4,
+      "branchName": "新北 新莊新泰店",
+      "phone": "02-29988772",
+      "businessHours": "AM10:00-PM21:00",
+      "address": "新北市新莊區新泰路314號"
+    },
+    {
+      "storeId": 53,
+      "shopId": 4,
+      "branchName": "新北 中和環球店",
+      "phone": "02-22223953",
+      "businessHours": "AM10:00-PM21:00",
+      "address": "新北市中和區中山路三段101號"
+    },
+    {
+      "storeId": 54,
+      "shopId": 4,
+      "branchName": "新北 三重五華店",
+      "phone": "02-89835568",
+      "businessHours": "AM10:00-PM21:00",
+      "address": "新北市三重區五華街144號"
+    },
+    {
+      "storeId": 55,
+      "shopId": 5,
+      "branchName": "台北縣總店",
+      "phone": "2957-2501",
+      "businessHours": "AM10:00-PM21:00",
+      "address": "新北市板橋區中山路二段159號"
+    },
+    {
+      "storeId": 56,
+      "shopId": 5,
+      "branchName": "新泰店",
+      "phone": "2277-6250",
+      "businessHours": "AM10:00-PM21:00",
+      "address": "新北市新莊區新泰路311號"
+    },
+    {
+      "storeId": 57,
+      "shopId": 5,
+      "branchName": "三和店",
+      "phone": "2286-1850",
+      "businessHours": "AM10:00-PM21:00",
+      "address": "新北市三重區三和路四段205號"
+    },
+    {
+      "storeId": 58,
+      "shopId": 5,
+      "branchName": "南勢角店",
+      "phone": "2940-8372",
+      "businessHours": "AM10:00-PM21:00",
+      "address": "新北市中和區景新街396-1號"
+    },
+    {
+      "storeId": 59,
+      "shopId": 5,
+      "branchName": "福和店",
+      "phone": "2928-7180",
+      "businessHours": "AM10:00-PM21:00",
+      "address": "新北市永和區福和路239號"
+    },
+    {
+      "storeId": 60,
+      "shopId": 5,
+      "branchName": "板橋文化店",
+      "phone": "8258-5666",
+      "businessHours": "AM10:00-PM21:00",
+      "address": "新北市板橋區文化路一段379號"
+    },
+    {
+      "storeId": 61,
+      "shopId": 5,
+      "branchName": "五華店",
+      "phone": "2988-7002",
+      "businessHours": "AM10:00-PM21:00",
+      "address": "新北市三重區五華街77號"
+    },
+    {
+      "storeId": 62,
+      "shopId": 5,
+      "branchName": "新店民權店",
+      "phone": "8219-1133",
+      "businessHours": "AM10:00-PM21:00",
+      "address": "新北市新店區民權路123號"
+    },
+    {
+      "storeId": 63,
+      "shopId": 5,
+      "branchName": "輔大店",
+      "phone": "2901-8100",
+      "businessHours": "AM10:00-PM21:00",
+      "address": "新北市新莊區建國一路30號"
+    },
+    {
+      "storeId": 64,
+      "shopId": 5,
+      "branchName": "板橋莒光店",
+      "phone": "2258-5000",
+      "businessHours": "AM10:00-PM21:00",
+      "address": "新北市板橋區莒光路14號"
+    },
+    {
+      "storeId": 65,
+      "shopId": 5,
+      "branchName": "板橋雙十店",
+      "phone": "2258-0833",
+      "businessHours": "AM10:00-PM21:00",
+      "address": "新北市板橋區雙十路二段189號"
+    },
+    {
+      "storeId": 66,
+      "shopId": 5,
+      "branchName": "新莊中港店",
+      "phone": "2990-9113",
+      "businessHours": "AM10:00-PM21:00",
+      "address": "新北市新莊區中港路335號1樓"
+    },
+    {
+      "storeId": 67,
+      "shopId": 5,
+      "branchName": "得和店",
+      "phone": "2940-9115",
+      "businessHours": "AM10:00-PM21:00",
+      "address": "新北市永和區得和路396號"
+    },
+    {
+      "storeId": 68,
+      "shopId": 5,
+      "branchName": "蘆洲民族店",
+      "phone": "8286-6386",
+      "businessHours": "AM10:00-PM21:00",
+      "address": "新北市蘆洲區民族路176號"
+    },
+    {
+      "storeId": 69,
+      "shopId": 5,
+      "branchName": "蘆洲中華店",
+      "phone": "2848-9188",
+      "businessHours": "AM10:00-PM21:00",
+      "address": "新北市蘆洲區中華街16號"
+    },
+    {
+      "storeId": 70,
+      "shopId": 6,
+      "branchName": "三重長壽",
+      "phone": "02-2977-0630",
+      "businessHours": "AM10:00-PM21:00",
+      "address": "新北市三重區長壽街23號-2"
+    },
+    {
+      "storeId": 71,
+      "shopId": 6,
+      "branchName": "三重溪尾",
+      "phone": "02-8983-0630",
+      "businessHours": "AM10:00-PM21:00",
+      "address": "新北市三重區溪尾街215號"
+    },
+    {
+      "storeId": 72,
+      "shopId": 6,
+      "branchName": "中和南華",
+      "phone": "02-2242-9042",
+      "businessHours": "AM10:00-PM21:00",
+      "address": "新北市中和區南華路16號"
+    },
+    {
+      "storeId": 73,
+      "shopId": 6,
+      "branchName": "中和遠東廣場",
+      "phone": "02-8226-2806",
+      "businessHours": "AM10:00-PM21:00",
+      "address": "新北市中和區建八路2號一樓A戶"
+    },
+    {
+      "storeId": 74,
+      "shopId": 6,
+      "branchName": "永和民生",
+      "phone": "02-2941-9706",
+      "businessHours": "AM10:00-PM21:00",
+      "address": "新北市永和區民生路24號"
+    },
+    {
+      "storeId": 75,
+      "shopId": 6,
+      "branchName": "永和頂溪",
+      "phone": "02-2921-6989",
+      "businessHours": "AM10:00-PM21:00",
+      "address": "新北市永和區永和路二段30號"
+    },
+    {
+      "storeId": 76,
+      "shopId": 6,
+      "branchName": "板橋民治",
+      "phone": "02-2250-3390",
+      "businessHours": "AM10:00-PM21:00",
+      "address": "新北市板橋區民治街121號"
+    },
+    {
+      "storeId": 77,
+      "shopId": 6,
+      "branchName": "板橋重慶",
+      "phone": "02-2962-6600",
+      "businessHours": "AM10:00-PM21:00",
+      "address": "新北市板橋區重慶路36號"
+    },
+    {
+      "storeId": 78,
+      "shopId": 6,
+      "branchName": "新店大豐",
+      "phone": "02-2910-0052",
+      "businessHours": "AM10:00-PM21:00",
+      "address": "新北市新店區大豐路15號"
+    },
+    {
+      "storeId": 79,
+      "shopId": 6,
+      "branchName": "新店中正",
+      "phone": "02-2911-2912",
+      "businessHours": "AM10:00-PM21:00",
+      "address": "新北市新店區中正路226號1樓"
+    },
+    {
+      "storeId": 80,
+      "shopId": 6,
+      "branchName": "新店光明",
+      "phone": "02-2912-6660",
+      "businessHours": "AM10:00-PM21:00",
+      "address": "新北市新店區光明街270號"
+    },
+    {
+      "storeId": 81,
+      "shopId": 6,
+      "branchName": "輔大文園",
+      "phone": "02-2904-9985",
+      "businessHours": "AM10:00-PM21:00",
+      "address": "新北市新莊區中正路510號"
+    },
+    {
+      "storeId": 82,
+      "shopId": 6,
+      "branchName": "新莊西盛",
+      "phone": "02-2203-5556",
+      "businessHours": "AM10:00-PM21:00",
+      "address": "新北市新莊區西盛街226號1樓"
+    },
+    {
+      "storeId": 83,
+      "shopId": 6,
+      "branchName": "蘆洲信義",
+      "phone": "02-2848-1219",
+      "businessHours": "AM10:00-PM21:00",
+      "address": "新北市蘆洲區信義路279號"
+    },
+    {
+      "storeId": 84,
+      "shopId": 6,
+      "branchName": "蘆洲復興",
+      "phone": "02-2281-5633",
+      "businessHours": "AM10:00-PM21:00",
+      "address": "新北市蘆洲區復興路58號"
+    },
+    {
+      "storeId": 85,
+      "shopId": 7,
+      "branchName": "新莊四維店",
+      "phone": "02-22046660",
+      "businessHours": "AM10:00-PM21:00",
+      "address": "新北市新莊區四維路159號"
+    },
+    {
+      "storeId": 86,
+      "shopId": 7,
+      "branchName": "中和員山店",
+      "phone": "02-82286778",
+      "businessHours": "AM10:00-PM21:00",
+      "address": "新北市中和區民安街14號"
+    },
+    {
+      "storeId": 87,
+      "shopId": 7,
+      "branchName": "板橋莒光店",
+      "phone": "02-22509928",
+      "businessHours": "AM10:00-PM21:00",
+      "address": "新北市板橋區莒光路7號"
+    },
+    {
+      "storeId": 88,
+      "shopId": 7,
+      "branchName": "泰山明志店",
+      "phone": "02-22970073",
+      "businessHours": "AM10:00-PM21:00",
+      "address": "新北市泰山區明志路一段218號"
+    },
+    {
+      "storeId": 89,
+      "shopId": 7,
+      "branchName": "新北蘆洲店",
+      "phone": "02-22838340",
+      "businessHours": "AM10:00-PM21:00",
+      "address": "新北市蘆洲區光華路161號"
+    },
+    {
+      "storeId": 90,
+      "shopId": 7,
+      "branchName": "三峽老街店",
+      "phone": "02-26722686",
+      "businessHours": "AM10:00-PM21:00",
+      "address": "新北市三峽區民權街5號"
+    },
+    {
+      "storeId": 91,
+      "shopId": 7,
+      "branchName": "永和樂華店",
+      "phone": "02-22331966",
+      "businessHours": "AM10:00-PM21:00",
+      "address": "新北市永和區保平路19號"
+    },
+    {
+      "storeId": 92,
+      "shopId": 7,
+      "branchName": "板橋裕民店",
+      "phone": "02-82537080",
+      "businessHours": "AM10:00-PM21:00",
+      "address": "新北市板橋區裕民街57號"
+    },
+    {
+      "storeId": 93,
+      "shopId": 7,
+      "branchName": "板橋湳雅店",
+      "phone": "0905-992992",
+      "businessHours": "AM10:00-PM21:00",
+      "address": "新北市板橋區南雅南路一段5巷4號"
+    },
+    {
+      "storeId": 94,
+      "shopId": 7,
+      "branchName": "樹林站前店",
+      "phone": "02-2681-5151",
+      "businessHours": "AM10:00-PM21:00",
+      "address": "新北市樹林區鎮前街67號"
+    },
+    {
+      "storeId": 95,
+      "shopId": 7,
+      "branchName": "新北三重店",
+      "phone": "02-29888787",
+      "businessHours": "AM10:00-PM21:00",
+      "address": "新北市三重區五華街110之1號"
+    },
+    {
+      "storeId": 96,
+      "shopId": 7,
+      "branchName": "中和南勢角店",
+      "phone": "02-86689886",
+      "businessHours": "AM10:00-PM21:00",
+      "address": "新北市中和區興南路一段92號"
+    },
+    {
+      "storeId": 97,
+      "shopId": 7,
+      "branchName": "土城學府店",
+      "phone": "02-82628808",
+      "businessHours": "AM10:00-PM21:00",
+      "address": "新北市土城區學府路一段193號"
+    },
+    {
+      "storeId": 98,
+      "shopId": 7,
+      "branchName": "三重文化店",
+      "phone": "02-29868388",
+      "businessHours": "AM10:00-PM21:00",
+      "address": "新北市三重區文化北路94號"
+    },
+    {
+      "storeId": 99,
+      "shopId": 8,
+      "branchName": "淡水英專",
+      "phone": "02-26228877",
+      "businessHours": "AM10:00-PM21:00",
+      "address": "251新北市淡水區英專路15號"
+    },
+    {
+      "storeId": 100,
+      "shopId": 8,
+      "branchName": "汐止忠孝",
+      "phone": "02-26903392",
+      "businessHours": "AM10:00-PM21:00",
+      "address": "221新北市汐止區忠孝東路245號"
+    },
+    {
+      "storeId": 101,
+      "shopId": 8,
+      "branchName": "泰山明志",
+      "phone": "02-29012900",
+      "businessHours": "AM10:00-PM21:00",
+      "address": "243新北市泰山區明志路三段209號"
+    },
+    {
+      "storeId": 102,
+      "shopId": 8,
+      "branchName": "樹林中山",
+      "phone": "02-86875007",
+      "businessHours": "AM10:00-PM21:00",
+      "address": "238新北市樹林區中山路一段60號"
+    },
+    {
+      "storeId": 103,
+      "shopId": 8,
+      "branchName": "板橋莒光",
+      "phone": "02-89696663",
+      "businessHours": "AM10:00-PM21:00",
+      "address": "220新北市板橋區莒光路50號"
+    },
+    {
+      "storeId": 104,
+      "shopId": 8,
+      "branchName": "土城裕民",
+      "phone": "02-82620299",
+      "businessHours": "AM10:00-PM21:00",
+      "address": "236新北市土城區裕民路155號"
+    },
+    {
+      "storeId": 105,
+      "shopId": 8,
+      "branchName": "中和環球",
+      "phone": "02-22219830",
+      "businessHours": "AM10:00-PM21:00",
+      "address": "235新北市中和區中山路三段125號"
+    },
+    {
+      "storeId": 106,
+      "shopId": 8,
+      "branchName": "三重徐匯",
+      "phone": "02-82839868",
+      "businessHours": "AM10:00-PM21:00",
+      "address": "241新北市三重區三和路四段209號1樓"
+    },
+    {
+      "storeId": 107,
+      "shopId": 8,
+      "branchName": "新莊新泰",
+      "phone": "02-29960087",
+      "businessHours": "AM10:00-PM21:00",
+      "address": "242新北市新莊區新泰路279號"
+    },
+    {
+      "storeId": 108,
+      "shopId": 8,
+      "branchName": "新店大坪林",
+      "phone": "02-86656100",
+      "businessHours": "AM10:00-PM21:00",
+      "address": "231新北市新店區北新路三段101號"
+    },
+    {
+      "storeId": 109,
+      "shopId": 8,
+      "branchName": "新莊輔大",
+      "phone": "02-29015775",
+      "businessHours": "AM10:00-PM21:00",
+      "address": "242新北市新莊區建國一路64號"
+    },
+    {
+      "storeId": 110,
+      "shopId": 8,
+      "branchName": "三重正義",
+      "phone": "02-29885010",
+      "businessHours": "AM10:00-PM21:00",
+      "address": "241新北市三重區正義北路46號"
+    },
+    {
+      "storeId": 111,
+      "shopId": 8,
+      "branchName": "淡水民生",
+      "phone": "02-28096889",
+      "businessHours": "AM10:00-PM21:00",
+      "address": "新北市淡水區民生路18號"
+    },
+    {
+      "storeId": 112,
+      "shopId": 8,
+      "branchName": "板橋新民",
+      "phone": "02-29523618",
+      "businessHours": "AM10:00-PM21:00",
+      "address": "220新北市板橋區新民街41號"
+    },
+    {
+      "storeId": 113,
+      "shopId": 8,
+      "branchName": "永和樂華",
+      "phone": "02-86600158",
+      "businessHours": "AM10:00-PM21:00",
+      "address": "234新北市永和區保平路21號"
+    },
+    {
+      "storeId": 114,
+      "shopId": 9,
+      "branchName": "中和新生店",
+      "phone": "02-22236313",
+      "businessHours": "AM10:00-PM21:00",
+      "address": "新北市中和區新生街213號"
+    },
+    {
+      "storeId": 115,
+      "shopId": 9,
+      "branchName": "新店大坪林店(輕食限定店)",
+      "phone": "02-29188289",
+      "businessHours": "AM10:00-PM21:00",
+      "address": "新北市新店區民權路23-1號"
+    },
+    {
+      "storeId": 116,
+      "shopId": 9,
+      "branchName": "新莊民安西店",
+      "phone": "02-22072211",
+      "businessHours": "AM10:00-PM21:00",
+      "address": "新北市新莊區民安西路153號1樓"
+    },
+    {
+      "storeId": 117,
+      "shopId": 9,
+      "branchName": "新莊中港店",
+      "phone": "02-29929886",
+      "businessHours": "AM10:00-PM21:00",
+      "address": "新北市新莊區中港路304號"
+    },
+    {
+      "storeId": 118,
+      "shopId": 9,
+      "branchName": "新莊中平店",
+      "phone": "02-22779101",
+      "businessHours": "AM10:00-PM21:00",
+      "address": "新北市新莊區中平路127號"
+    },
+    {
+      "storeId": 119,
+      "shopId": 9,
+      "branchName": "板橋環球店",
+      "phone": "02-89691019",
+      "businessHours": "AM10:00-PM21:00",
+      "address": "新北市板橋區縣民大道二段7號B1"
+    },
+    {
+      "storeId": 120,
+      "shopId": 9,
+      "branchName": "板橋重慶店",
+      "phone": "02-29630676",
+      "businessHours": "AM10:00-PM21:00",
+      "address": "新北市板橋區重慶路250號"
+    },
+    {
+      "storeId": 121,
+      "shopId": 9,
+      "branchName": "板橋四維店",
+      "phone": "02-22578911",
+      "businessHours": "AM10:00-PM21:00",
+      "address": "新北市板橋區四維路284號"
+    },
+    {
+      "storeId": 122,
+      "shopId": 9,
+      "branchName": "樹林金門店",
+      "phone": "02-26826780",
+      "businessHours": "AM10:00-PM21:00",
+      "address": "新北市板橋區金門街360號"
+    },
+    {
+      "storeId": 123,
+      "shopId": 9,
+      "branchName": "汐止新台五店",
+      "phone": "02-86423939",
+      "businessHours": "AM10:00-PM21:00",
+      "address": "新北市汐止區新台五路一段202號"
+    },
+    {
+      "storeId": 124,
+      "shopId": 9,
+      "branchName": "泰山明志一店",
+      "phone": "02-85315961",
+      "businessHours": "AM10:00-PM21:00",
+      "address": "新北市泰山區明志路一段191號"
+    },
+    {
+      "storeId": 125,
+      "shopId": 9,
+      "branchName": "淡水竹圍店",
+      "phone": "02-28085685",
+      "businessHours": "AM10:00-PM21:00",
+      "address": "新北市淡水區民權路30號"
+    },
+    {
+      "storeId": 126,
+      "shopId": 9,
+      "branchName": "蘆洲長安店",
+      "phone": "02-22851693",
+      "businessHours": "AM10:00-PM21:00",
+      "address": "新北市蘆洲區長安街82號"
+    },
+    {
+      "storeId": 127,
+      "shopId": 10,
+      "branchName": "新埔店",
+      "phone": "02-2256 0360",
+      "businessHours": "AM10:00-PM21:00",
+      "address": "台灣新北市板橋區民生路三段15號"
+    },
+    {
+      "storeId": 128,
+      "shopId": 11,
+      "branchName": "板橋府中門市",
+      "phone": "02-29509066",
+      "businessHours": "AM10:00-PM21:00",
+      "address": "新北市板橋區中山路一段38號"
+    },
+    {
+      "storeId": 129,
+      "shopId": 12,
+      "branchName": "三重三和店",
+      "phone": "02-8287-8555",
+      "businessHours": "AM10:00-PM21:00",
+      "address": "新北市三重區三和路四段165之7號"
+    },
+    {
+      "storeId": 130,
+      "shopId": 12,
+      "branchName": "三重正義店",
+      "phone": "02-8988-1555",
+      "businessHours": "AM10:00-PM21:00",
+      "address": "新北市三重區正義北路22號"
+    },
+    {
+      "storeId": 131,
+      "shopId": 12,
+      "branchName": "中和景安店",
+      "phone": "02-2942-5522",
+      "businessHours": "AM10:00-PM21:00",
+      "address": "新北市中和區景安路191號"
+    },
+    {
+      "storeId": 132,
+      "shopId": 12,
+      "branchName": "中和福祥店",
+      "phone": "02-2243-0515",
+      "businessHours": "AM10:00-PM21:00",
+      "address": "新北市中和區福祥路5號"
+    },
+    {
+      "storeId": 133,
+      "shopId": 12,
+      "branchName": "永安市場店",
+      "phone": "02-2925-9899",
+      "businessHours": "AM10:00-PM21:00",
+      "address": "新北市永和區中和路491號"
+    },
+    {
+      "storeId": 134,
+      "shopId": 12,
+      "branchName": "永和頂溪店",
+      "phone": "02-2927-7730",
+      "businessHours": "AM10:00-PM21:00",
+      "address": "新北市永和區永和路二段35號"
+    },
+    {
+      "storeId": 135,
+      "shopId": 12,
+      "branchName": "板橋中山店",
+      "phone": "02-2953-5353",
+      "businessHours": "AM10:00-PM21:00",
+      "address": "新北市板橋區中山路一段102號"
+    },
+    {
+      "storeId": 136,
+      "shopId": 12,
+      "branchName": "板橋中正店",
+      "phone": "02-2969-0309",
+      "businessHours": "AM10:00-PM21:00",
+      "address": "新北市板橋區中正路231號"
+    },
+    {
+      "storeId": 137,
+      "shopId": 12,
+      "branchName": "板橋江子翠店",
+      "phone": "02-2258-3318",
+      "businessHours": "AM10:00-PM21:00",
+      "address": "新北市板橋區文聖街76號"
+    },
+    {
+      "storeId": 138,
+      "shopId": 12,
+      "branchName": "板橋莒光店",
+      "phone": "02-2250-5989",
+      "businessHours": "AM10:00-PM21:00",
+      "address": "新北市板橋區莒光路47號"
+    },
+    {
+      "storeId": 139,
+      "shopId": 12,
+      "branchName": "板橋陽明店",
+      "phone": "02-2250-0399",
+      "businessHours": "AM10:00-PM21:00",
+      "address": "新北市板橋區陽明街72號"
+    },
+    {
+      "storeId": 140,
+      "shopId": 12,
+      "branchName": "新店寶橋店",
+      "phone": "02-2911-8855",
+      "businessHours": "AM10:00-PM21:00",
+      "address": "新北市新店區寶橋路41號1樓"
+    },
+    {
+      "storeId": 141,
+      "shopId": 12,
+      "branchName": "新莊五權店",
+      "phone": "02-2298-9494",
+      "businessHours": "AM10:00-PM21:00",
+      "address": "新北市新莊區五權一路40號"
+    },
+    {
+      "storeId": 142,
+      "shopId": 12,
+      "branchName": "新莊新泰店",
+      "phone": "02-2996-0606",
+      "businessHours": "AM10:00-PM21:00",
+      "address": "新北市新莊區新泰路40號"
+    },
+    {
+      "storeId": 143,
+      "shopId": 12,
+      "branchName": "蘆洲民族店",
+      "phone": "02-8286-7709",
+      "businessHours": "AM10:00-PM21:00",
+      "address": "新北市蘆洲區民族路57號"
+    },
+    {
+      "storeId": 144,
+      "shopId": 13,
+      "branchName": "新莊幸福店",
+      "phone": "02-2991-5529",
+      "businessHours": "AM10:00-PM21:00",
+      "address": "新北市新莊區幸福路39號"
+    },
+    {
+      "storeId": 145,
+      "shopId": 13,
+      "branchName": "新莊民安店",
+      "phone": "02-2204-5178",
+      "businessHours": "AM10:00-PM21:00",
+      "address": "新北市新莊區民安路178號"
+    },
+    {
+      "storeId": 146,
+      "shopId": 13,
+      "branchName": "板橋四維店",
+      "phone": "02-2255-6885",
+      "businessHours": "AM10:00-PM21:00",
+      "address": "新北市板橋區四維路113號"
+    },
+    {
+      "storeId": 147,
+      "shopId": 13,
+      "branchName": "板橋府中店",
+      "phone": "02-2952-6661",
+      "businessHours": "AM10:00-PM21:00",
+      "address": "新北市板橋區中山路一段102號"
+    },
+    {
+      "storeId": 148,
+      "shopId": 13,
+      "branchName": "永和樂華店",
+      "phone": "02-2926-4987",
+      "businessHours": "AM10:00-PM21:00",
+      "address": "新北市永和區保平路18巷1-1號"
+    },
+    {
+      "storeId": 149,
+      "shopId": 13,
+      "branchName": "中和新生店",
+      "phone": "02-2221-1201",
+      "businessHours": "AM10:00-PM21:00",
+      "address": "新北市中和區新生街150號"
+    },
+    {
+      "storeId": 150,
+      "shopId": 14,
+      "branchName": "淡水英專店",
+      "phone": "02-2629-1808",
+      "businessHours": "AM10:00-PM21:00",
+      "address": "新北市淡水區英專路77號"
+    },
+    {
+      "storeId": 151,
+      "shopId": 14,
+      "branchName": "板橋民治店",
+      "phone": "02-2252-1111",
+      "businessHours": "AM10:00-PM21:00",
+      "address": "新北市板橋區民治街129號"
+    },
+    {
+      "storeId": 152,
+      "shopId": 14,
+      "branchName": "板橋府中店",
+      "phone": "02-2963-0228",
+      "businessHours": "AM10:00-PM21:00",
+      "address": "新北市板橋區中山路一段29號1樓"
+    },
+    {
+      "storeId": 153,
+      "shopId": 14,
+      "branchName": "土城海山店",
+      "phone": "02-8262-9979",
+      "businessHours": "AM10:00-PM21:00",
+      "address": "土城區裕民路85號1F"
+    },
+    {
+      "storeId": 154,
+      "shopId": 14,
+      "branchName": "土城中央店",
+      "phone": "02-2269-1666",
+      "businessHours": "AM10:00-PM21:00",
+      "address": "新北市土城區中央路三段72-1號"
+    },
+    {
+      "storeId": 155,
+      "shopId": 14,
+      "branchName": "蘆洲光華店",
+      "phone": "02-8286-8652",
+      "businessHours": "AM10:00-PM21:00",
+      "address": "新北市蘆洲區光華路89號"
+    },
+    {
+      "storeId": 156,
+      "shopId": 14,
+      "branchName": "新店大坪林店",
+      "phone": "02-8911-5098",
+      "businessHours": "AM10:00-PM21:00",
+      "address": "新北市新店區北新路三段85號"
+    },
+    {
+      "storeId": 157,
+      "shopId": 14,
+      "branchName": "林口文化店",
+      "phone": "02-26090998",
+      "businessHours": "AM10:00-PM21:00",
+      "address": "新北市林口區文化二路一段62號1樓之1"
+    },
+    {
+      "storeId": 158,
+      "shopId": 14,
+      "branchName": "中和連城店",
+      "phone": "02-2243-8876",
+      "businessHours": "AM10:00-PM21:00",
+      "address": "新北市中和區連城路17號"
+    },
+    {
+      "storeId": 159,
+      "shopId": 14,
+      "branchName": "三重正義店",
+      "phone": "02-8985-1100",
+      "businessHours": "AM10:00-PM21:00",
+      "address": "新北市三重區正義北路145號"
+    },
+    {
+      "storeId": 160,
+      "shopId": 14,
+      "branchName": "三峽北大店",
+      "phone": "02-8672-1007",
+      "businessHours": "AM10:00-PM21:00",
+      "address": "新北市三峽區大學路145號"
+    },
+    {
+      "storeId": 161,
+      "shopId": 14,
+      "branchName": "汐止中興店",
+      "phone": "02-2694-1717",
+      "businessHours": "AM10:00-PM21:00",
+      "address": "新北市汐止區中興路204號"
+    },
+    {
+      "storeId": 162,
+      "shopId": 14,
+      "branchName": "新莊輔大店",
+      "phone": "02-2901-3918",
+      "businessHours": "AM10:00-PM21:00",
+      "address": "新北市新莊區中正路516-34號"
+    },
+    {
+      "storeId": 163,
+      "shopId": 14,
+      "branchName": "樹林站前店",
+      "phone": "02-2682-1717",
+      "businessHours": "AM10:00-PM21:00",
+      "address": "新北市樹林區博愛一街36號"
+    },
+    {
+      "storeId": 164,
+      "shopId": 15,
+      "branchName": "板橋府中",
+      "phone": "02-29512620",
+      "businessHours": "AM10:00-PM21:00",
+      "address": "新北市板橋區四川路一段6號"
+    },
+    {
+      "storeId": 165,
+      "shopId": 15,
+      "branchName": "中和連城",
+      "phone": "02-22255656",
+      "businessHours": "AM10:00-PM21:00",
+      "address": "新北市中和區連城路381-2號"
+    },
+    {
+      "storeId": 166,
+      "shopId": 16,
+      "branchName": "三重中正北店",
+      "phone": "02-8982-8005",
+      "businessHours": "AM10:00-PM21:00",
+      "address": "新北市三重區中正北路362號"
+    },
+    {
+      "storeId": 167,
+      "shopId": 16,
+      "branchName": "自強店",
+      "phone": "02-2980-6452",
+      "businessHours": "AM10:00-PM21:00",
+      "address": "新北市三重區自強路一段250號"
+    },
+    {
+      "storeId": 168,
+      "shopId": 16,
+      "branchName": "中和員山店",
+      "phone": "02-2221-6016",
+      "businessHours": "AM10:00-PM21:00",
+      "address": "新北市中和區員山路339號"
+    },
+    {
+      "storeId": 169,
+      "shopId": 16,
+      "branchName": "連城店",
+      "phone": "02-2221-9121",
+      "businessHours": "AM10:00-PM21:00",
+      "address": "新北市中和區連城路347巷1弄2號"
+    },
+    {
+      "storeId": 170,
+      "shopId": 16,
+      "branchName": "成泰店",
+      "phone": "02-8292-3465",
+      "businessHours": "AM10:00-PM21:00",
+      "address": "新北市五股區成泰路二段184號"
+    },
+    {
+      "storeId": 171,
+      "shopId": 16,
+      "branchName": "凌雲店",
+      "phone": "02-8295-3883",
+      "businessHours": "AM10:00-PM21:00",
+      "address": "新北市五股區凌雲路一段99號"
+    },
+    {
+      "storeId": 172,
+      "shopId": 16,
+      "branchName": "永和中正店",
+      "phone": "02-8941-6037",
+      "businessHours": "AM10:00-PM21:00",
+      "address": "新北市永和區中正路184號"
+    },
+    {
+      "storeId": 173,
+      "shopId": 16,
+      "branchName": "板橋金門店",
+      "phone": "02-2675-8619",
+      "businessHours": "AM10:00-PM21:00",
+      "address": "新北市板橋區金門街312號"
+    },
+    {
+      "storeId": 174,
+      "shopId": 16,
+      "branchName": "新店五峰",
+      "phone": "02-2911-3633",
+      "businessHours": "AM10:00-PM21:00",
+      "address": "新北市新店區中正路53號"
+    },
+    {
+      "storeId": 175,
+      "shopId": 16,
+      "branchName": "新店北新",
+      "phone": "02-2911-2566",
+      "businessHours": "AM10:00-PM21:00",
+      "address": "新北市新店區北新路一段219號"
+    },
+    {
+      "storeId": 176,
+      "shopId": 16,
+      "branchName": "新莊中港店",
+      "phone": "02-2276-9538",
+      "businessHours": "AM10:00-PM21:00",
+      "address": "新北市新莊區中港路333號"
+    },
+    {
+      "storeId": 177,
+      "shopId": 16,
+      "branchName": "新莊幸福店",
+      "phone": "02-2279-6697",
+      "businessHours": "AM10:00-PM21:00",
+      "address": "新北市新莊區幸福路534號"
+    },
+    {
+      "storeId": 178,
+      "shopId": 16,
+      "branchName": "龍安店",
+      "phone": "02-2204-9489",
+      "businessHours": "AM10:00-PM21:00",
+      "address": "新北市新莊區龍安路262號"
+    },
+    {
+      "storeId": 179,
+      "shopId": 16,
+      "branchName": "蘆洲民族2店",
+      "phone": "02-8281-4840",
+      "businessHours": "AM10:00-PM21:00",
+      "address": "新北市蘆洲區民族路398號"
+    },
+    {
+      "storeId": 180,
+      "shopId": 16,
+      "branchName": "長安2店",
+      "phone": "02-8282-7023",
+      "businessHours": "AM10:00-PM21:00",
+      "address": "新北市蘆洲區長安街359號"
+    },
+    {
+      "storeId": 181,
+      "shopId": 17,
+      "branchName": "新北市三重區「三和店」",
+      "phone": "02-22809233",
+      "businessHours": "AM10:00-PM21:00",
+      "address": "新北市三重區三和路四段197號"
+    },
+    {
+      "storeId": 182,
+      "shopId": 17,
+      "branchName": "新北市三重區「力行店」",
+      "phone": "02-82839559",
+      "businessHours": "AM10:00-PM21:00",
+      "address": "新北市三重區力行路二段119號"
+    },
+    {
+      "storeId": 183,
+      "shopId": 17,
+      "branchName": "新北市中和區「福美店」",
+      "phone": "02-22455111",
+      "businessHours": "AM10:00-PM21:00",
+      "address": "新北市中和區福美路247號"
+    },
+    {
+      "storeId": 184,
+      "shopId": 17,
+      "branchName": "新北市中和區「圓通店」",
+      "phone": "02-22462255",
+      "businessHours": "AM10:00-PM21:00",
+      "address": "新北市中和區圓通路256號"
+    },
+    {
+      "storeId": 185,
+      "shopId": 17,
+      "branchName": "新北市中和區「景安店」",
+      "phone": "02-29451118",
+      "businessHours": "AM10:00-PM21:00",
+      "address": "新北市中和區景安路199號"
+    },
+    {
+      "storeId": 186,
+      "shopId": 17,
+      "branchName": "新北市永和區「中正店」",
+      "phone": "02-29455118",
+      "businessHours": "AM10:00-PM21:00",
+      "address": "新北市中和區自立路187號"
+    },
+    {
+      "storeId": 187,
+      "shopId": 17,
+      "branchName": "新北市五股區「凌雲店」",
+      "phone": "02-22936636",
+      "businessHours": "AM10:00-PM21:00",
+      "address": "新北市五股區成泰路三段482號"
+    },
+    {
+      "storeId": 188,
+      "shopId": 17,
+      "branchName": "新北市五股區「工商店」",
+      "phone": "02-82954587",
+      "businessHours": "AM10:00-PM21:00",
+      "address": "新北市五股區工商路96號"
+    },
+    {
+      "storeId": 189,
+      "shopId": 17,
+      "branchName": "新北市板橋區「湳雅店」",
+      "phone": "02-22725586",
+      "businessHours": "AM10:00-PM21:00",
+      "address": "新北市板橋區南雅南路一段81號"
+    },
+    {
+      "storeId": 190,
+      "shopId": 17,
+      "branchName": "新北市板橋區「中山店」",
+      "phone": "02-29642877",
+      "businessHours": "AM10:00-PM21:00",
+      "address": "新北市板橋區中山路二段183號"
+    },
+    {
+      "storeId": 191,
+      "shopId": 17,
+      "branchName": "新北市板橋區「三民店」",
+      "phone": "02-29539292",
+      "businessHours": "AM10:00-PM21:00",
+      "address": "新北市板橋區三民路二段102巷1號"
+    },
+    {
+      "storeId": 192,
+      "shopId": 17,
+      "branchName": "新北市新店區「北新店」",
+      "phone": "02-29113966",
+      "businessHours": "AM10:00-PM21:00",
+      "address": "新北市新店區北新路三段62號"
+    },
+    {
+      "storeId": 193,
+      "shopId": 17,
+      "branchName": "新北市新莊區「新豐店」",
+      "phone": "02-22048133",
+      "businessHours": "AM10:00-PM21:00",
+      "address": "新北市新莊區新泰路79號"
+    },
+    {
+      "storeId": 194,
+      "shopId": 17,
+      "branchName": "新北市蘆洲區「民族店」",
+      "phone": "02-22882621",
+      "businessHours": "AM10:00-PM21:00",
+      "address": "新北市蘆洲區民族路208號"
+    },
+    {
+      "storeId": 195,
+      "shopId": 17,
+      "branchName": "新北市蘆洲區「中華店」",
+      "phone": "02-22830707",
+      "businessHours": "AM10:00-PM21:00",
+      "address": "新北市蘆洲區中華街25-1號"
+    },
+    {
+      "storeId": 196,
+      "shopId": 18,
+      "branchName": "永和竹林店",
+      "phone": "02-89213148",
+      "businessHours": "AM10:00-PM21:00",
+      "address": "新北市永和區竹林路89號"
+    },
+    {
+      "storeId": 197,
+      "shopId": 18,
+      "branchName": "內湖成功店",
+      "phone": "02-87928815",
+      "businessHours": "AM10:00-PM21:00",
+      "address": "新北市內湖區成功路四段30巷8號"
+    },
+    {
+      "storeId": 198,
+      "shopId": 18,
+      "branchName": "三重集美店",
+      "phone": "02-23682710",
+      "businessHours": "AM10:00-PM21:00",
+      "address": "新北市三重區集美街161號"
+    },
+    {
+      "storeId": 199,
+      "shopId": 18,
+      "branchName": "新北中和店",
+      "phone": "02-22466996",
+      "businessHours": "AM10:00-PM21:00",
+      "address": "新北市中和區連城路25號"
+    },
+    {
+      "storeId": 200,
+      "shopId": 18,
+      "branchName": "板橋亞東店",
+      "phone": "02-89660319",
+      "businessHours": "AM10:00-PM21:00",
+      "address": "新北市板橋區四川路二段47巷1弄1號1樓"
+    },
+    {
+      "storeId": 201,
+      "shopId": 18,
+      "branchName": "板橋四維旗艦店",
+      "phone": "02-22540508",
+      "businessHours": "AM10:00-PM21:00",
+      "address": "新北市板橋區四維路123號"
+    },
+    {
+      "storeId": 202,
+      "shopId": 18,
+      "branchName": "新莊中華旗艦店",
+      "phone": "02-27325601",
+      "businessHours": "AM10:00-PM21:00",
+      "address": "新北市新莊區中華路一段28號"
+    }
+  ],
+  "latestNews": [
+    {
+      "id": 1,
+      "title": "新品上市",
+      "content": "詳細內容",
+      "shopId": 1
+    }
+  ],
+  "shopTags": [
+    {
+      "id": 1,
+      "name": "人氣"
+    }
+  ],
+  "users": [
+    { "id": 1, "username": "john", "email": "john@email.com" },
+    { "id": 2, "username": "emily", "email": "emily@email.com" },
+    { "id": 3, "username": "michael", "email": "michael@email.com" },
+    { "id": 4, "username": "sarah", "email": "sarah@email.com" },
+    { "id": 5, "username": "david", "email": "david@email.com" },
+    { "id": 6, "username": "olivia", "email": "olivia@email.com" },
+    { "id": 7, "username": "ethan", "email": "ethan@email.com" },
+    { "id": 8, "username": "ava", "email": "ava@email.com" },
+    { "id": 9, "username": "jacob", "email": "jacob@email.com" },
+    { "id": 10, "username": "mia", "email": "mia@email.com" },
+    { "id": 11, "username": "alexander", "email": "alexander@email.com" },
+    { "id": 12, "username": "amelia", "email": "amelia@email.com" },
+    { "id": 13, "username": "james", "email": "james@email.com" },
+    { "id": 14, "username": "isabella", "email": "isabella@email.com" },
+    { "id": 15, "username": "benjamin", "email": "benjamin@email.com" },
+    { "id": 16, "username": "sofia", "email": "sofia@email.com" },
+    { "id": 17, "username": "charlotte", "email": "charlotte@email.com" },
+    { "id": 18, "username": "logan", "email": "logan@email.com" },
+    { "id": 19, "username": "harper", "email": "harper@email.com" },
+    { "id": 20, "username": "lucas", "email": "lucas@email.com" }
+  ],
+  "userDrinkCollections": [
+    {
+      "id": 1,
+      "userId": 1,
+      "drinkId": 23
+    },
+    {
+      "id": 2,
+      "userId": 1,
+      "drinkId": 9
+    },
+    {
+      "id": 3,
+      "userId": 1,
+      "drinkId": 15
+    },
+    {
+      "id": 4,
+      "userId": 1,
+      "drinkId": 4
+    },
+    {
+      "id": 5,
+      "userId": 1,
+      "drinkId": 10
+    },
+    {
+      "id": 6,
+      "userId": 1,
+      "drinkId": 28
+    },
+    {
+      "id": 7,
+      "userId": 1,
+      "drinkId": 25
+    },
+    {
+      "id": 8,
+      "userId": 1,
+      "drinkId": 13
+    },
+    {
+      "id": 9,
+      "userId": 1,
+      "drinkId": 19
+    },
+    {
+      "id": 10,
+      "userId": 1,
+      "drinkId": 26
+    },
+    {
+      "id": 11,
+      "userId": 2,
+      "drinkId": 14
+    },
+    {
+      "id": 12,
+      "userId": 2,
+      "drinkId": 20
+    },
+    {
+      "id": 13,
+      "userId": 2,
+      "drinkId": 1
+    },
+    {
+      "id": 14,
+      "userId": 2,
+      "drinkId": 21
+    },
+    {
+      "id": 15,
+      "userId": 2,
+      "drinkId": 9
+    },
+    {
+      "id": 16,
+      "userId": 2,
+      "drinkId": 19
+    },
+    {
+      "id": 17,
+      "userId": 2,
+      "drinkId": 22
+    },
+    {
+      "id": 18,
+      "userId": 2,
+      "drinkId": 29
+    },
+    {
+      "id": 19,
+      "userId": 2,
+      "drinkId": 4
+    },
+    {
+      "id": 20,
+      "userId": 2,
+      "drinkId": 24
+    },
+    {
+      "id": 21,
+      "userId": 3,
+      "drinkId": 5
+    },
+    {
+      "id": 22,
+      "userId": 3,
+      "drinkId": 8
+    },
+    {
+      "id": 23,
+      "userId": 3,
+      "drinkId": 1
+    },
+    {
+      "id": 24,
+      "userId": 3,
+      "drinkId": 9
+    },
+    {
+      "id": 25,
+      "userId": 3,
+      "drinkId": 7
+    },
+    {
+      "id": 26,
+      "userId": 3,
+      "drinkId": 6
+    },
+    {
+      "id": 27,
+      "userId": 3,
+      "drinkId": 24
+    },
+    {
+      "id": 28,
+      "userId": 3,
+      "drinkId": 21
+    },
+    {
+      "id": 29,
+      "userId": 3,
+      "drinkId": 28
+    },
+    {
+      "id": 30,
+      "userId": 3,
+      "drinkId": 13
+    },
+    {
+      "id": 31,
+      "userId": 4,
+      "drinkId": 9
+    },
+    {
+      "id": 32,
+      "userId": 4,
+      "drinkId": 29
+    },
+    {
+      "id": 33,
+      "userId": 4,
+      "drinkId": 17
+    },
+    {
+      "id": 34,
+      "userId": 4,
+      "drinkId": 21
+    },
+    {
+      "id": 35,
+      "userId": 4,
+      "drinkId": 3
+    },
+    {
+      "id": 36,
+      "userId": 4,
+      "drinkId": 23
+    },
+    {
+      "id": 37,
+      "userId": 4,
+      "drinkId": 24
+    },
+    {
+      "id": 38,
+      "userId": 4,
+      "drinkId": 27
+    },
+    {
+      "id": 39,
+      "userId": 4,
+      "drinkId": 12
+    },
+    {
+      "id": 40,
+      "userId": 4,
+      "drinkId": 20
+    },
+    {
+      "id": 41,
+      "userId": 5,
+      "drinkId": 27
+    },
+    {
+      "id": 42,
+      "userId": 5,
+      "drinkId": 25
+    },
+    {
+      "id": 43,
+      "userId": 5,
+      "drinkId": 9
+    },
+    {
+      "id": 44,
+      "userId": 5,
+      "drinkId": 26
+    },
+    {
+      "id": 45,
+      "userId": 5,
+      "drinkId": 23
+    },
+    {
+      "id": 46,
+      "userId": 5,
+      "drinkId": 30
+    },
+    {
+      "id": 47,
+      "userId": 5,
+      "drinkId": 10
+    },
+    {
+      "id": 48,
+      "userId": 5,
+      "drinkId": 29
+    },
+    {
+      "id": 49,
+      "userId": 5,
+      "drinkId": 22
+    },
+    {
+      "id": 50,
+      "userId": 5,
+      "drinkId": 20
+    },
+    {
+      "id": 51,
+      "userId": 6,
+      "drinkId": 29
+    },
+    {
+      "id": 52,
+      "userId": 6,
+      "drinkId": 1
+    },
+    {
+      "id": 53,
+      "userId": 6,
+      "drinkId": 14
+    },
+    {
+      "id": 54,
+      "userId": 6,
+      "drinkId": 15
+    },
+    {
+      "id": 55,
+      "userId": 6,
+      "drinkId": 8
+    },
+    {
+      "id": 56,
+      "userId": 6,
+      "drinkId": 18
+    },
+    {
+      "id": 57,
+      "userId": 6,
+      "drinkId": 11
+    },
+    {
+      "id": 58,
+      "userId": 6,
+      "drinkId": 19
+    },
+    {
+      "id": 59,
+      "userId": 6,
+      "drinkId": 23
+    },
+    {
+      "id": 60,
+      "userId": 6,
+      "drinkId": 17
+    },
+    {
+      "id": 61,
+      "userId": 7,
+      "drinkId": 22
+    },
+    {
+      "id": 62,
+      "userId": 7,
+      "drinkId": 10
+    },
+    {
+      "id": 63,
+      "userId": 7,
+      "drinkId": 25
+    },
+    {
+      "id": 64,
+      "userId": 7,
+      "drinkId": 18
+    },
+    {
+      "id": 65,
+      "userId": 7,
+      "drinkId": 27
+    },
+    {
+      "id": 66,
+      "userId": 7,
+      "drinkId": 13
+    },
+    {
+      "id": 67,
+      "userId": 7,
+      "drinkId": 19
+    },
+    {
+      "id": 68,
+      "userId": 7,
+      "drinkId": 24
+    },
+    {
+      "id": 69,
+      "userId": 7,
+      "drinkId": 4
+    },
+    {
+      "id": 70,
+      "userId": 7,
+      "drinkId": 15
+    },
+    {
+      "id": 71,
+      "userId": 8,
+      "drinkId": 27
+    },
+    {
+      "id": 72,
+      "userId": 8,
+      "drinkId": 13
+    },
+    {
+      "id": 73,
+      "userId": 8,
+      "drinkId": 17
+    },
+    {
+      "id": 74,
+      "userId": 8,
+      "drinkId": 8
+    },
+    {
+      "id": 75,
+      "userId": 8,
+      "drinkId": 25
+    },
+    {
+      "id": 76,
+      "userId": 8,
+      "drinkId": 1
+    },
+    {
+      "id": 77,
+      "userId": 8,
+      "drinkId": 23
+    },
+    {
+      "id": 78,
+      "userId": 8,
+      "drinkId": 3
+    },
+    {
+      "id": 79,
+      "userId": 8,
+      "drinkId": 21
+    },
+    {
+      "id": 80,
+      "userId": 8,
+      "drinkId": 28
+    },
+    {
+      "id": 81,
+      "userId": 9,
+      "drinkId": 30
+    },
+    {
+      "id": 82,
+      "userId": 9,
+      "drinkId": 18
+    },
+    {
+      "id": 83,
+      "userId": 9,
+      "drinkId": 13
+    },
+    {
+      "id": 84,
+      "userId": 9,
+      "drinkId": 5
+    },
+    {
+      "id": 85,
+      "userId": 9,
+      "drinkId": 16
+    },
+    {
+      "id": 86,
+      "userId": 9,
+      "drinkId": 7
+    },
+    {
+      "id": 87,
+      "userId": 9,
+      "drinkId": 25
+    },
+    {
+      "id": 88,
+      "userId": 9,
+      "drinkId": 6
+    },
+    {
+      "id": 89,
+      "userId": 9,
+      "drinkId": 17
+    },
+    {
+      "id": 90,
+      "userId": 9,
+      "drinkId": 29
+    },
+    {
+      "id": 91,
+      "userId": 10,
+      "drinkId": 12
+    },
+    {
+      "id": 92,
+      "userId": 10,
+      "drinkId": 19
+    },
+    {
+      "id": 93,
+      "userId": 10,
+      "drinkId": 4
+    },
+    {
+      "id": 94,
+      "userId": 10,
+      "drinkId": 14
+    },
+    {
+      "id": 95,
+      "userId": 10,
+      "drinkId": 26
+    },
+    {
+      "id": 96,
+      "userId": 10,
+      "drinkId": 30
+    },
+    {
+      "id": 97,
+      "userId": 10,
+      "drinkId": 29
+    },
+    {
+      "id": 98,
+      "userId": 10,
+      "drinkId": 17
+    },
+    {
+      "id": 99,
+      "userId": 10,
+      "drinkId": 21
+    },
+    {
+      "id": 100,
+      "userId": 10,
+      "drinkId": 2
+    },
+    {
+      "id": 101,
+      "userId": 11,
+      "drinkId": 21
+    },
+    {
+      "id": 102,
+      "userId": 11,
+      "drinkId": 29
+    },
+    {
+      "id": 103,
+      "userId": 11,
+      "drinkId": 22
+    },
+    {
+      "id": 104,
+      "userId": 11,
+      "drinkId": 14
+    },
+    {
+      "id": 105,
+      "userId": 11,
+      "drinkId": 16
+    },
+    {
+      "id": 106,
+      "userId": 11,
+      "drinkId": 9
+    },
+    {
+      "id": 107,
+      "userId": 11,
+      "drinkId": 15
+    },
+    {
+      "id": 108,
+      "userId": 11,
+      "drinkId": 17
+    },
+    {
+      "id": 109,
+      "userId": 11,
+      "drinkId": 13
+    },
+    {
+      "id": 110,
+      "userId": 11,
+      "drinkId": 6
+    },
+    {
+      "id": 111,
+      "userId": 12,
+      "drinkId": 22
+    },
+    {
+      "id": 112,
+      "userId": 12,
+      "drinkId": 29
+    },
+    {
+      "id": 113,
+      "userId": 12,
+      "drinkId": 26
+    },
+    {
+      "id": 114,
+      "userId": 12,
+      "drinkId": 5
+    },
+    {
+      "id": 115,
+      "userId": 12,
+      "drinkId": 9
+    },
+    {
+      "id": 116,
+      "userId": 12,
+      "drinkId": 2
+    },
+    {
+      "id": 117,
+      "userId": 12,
+      "drinkId": 8
+    },
+    {
+      "id": 118,
+      "userId": 12,
+      "drinkId": 28
+    },
+    {
+      "id": 119,
+      "userId": 12,
+      "drinkId": 27
+    },
+    {
+      "id": 120,
+      "userId": 12,
+      "drinkId": 23
+    },
+    {
+      "id": 121,
+      "userId": 13,
+      "drinkId": 9
+    },
+    {
+      "id": 122,
+      "userId": 13,
+      "drinkId": 1
+    },
+    {
+      "id": 123,
+      "userId": 13,
+      "drinkId": 26
+    },
+    {
+      "id": 124,
+      "userId": 13,
+      "drinkId": 15
+    },
+    {
+      "id": 125,
+      "userId": 13,
+      "drinkId": 21
+    },
+    {
+      "id": 126,
+      "userId": 13,
+      "drinkId": 14
+    },
+    {
+      "id": 127,
+      "userId": 13,
+      "drinkId": 10
+    },
+    {
+      "id": 128,
+      "userId": 13,
+      "drinkId": 18
+    },
+    {
+      "id": 129,
+      "userId": 13,
+      "drinkId": 29
+    },
+    {
+      "id": 130,
+      "userId": 13,
+      "drinkId": 6
+    },
+    {
+      "id": 131,
+      "userId": 14,
+      "drinkId": 4
+    },
+    {
+      "id": 132,
+      "userId": 14,
+      "drinkId": 29
+    },
+    {
+      "id": 133,
+      "userId": 14,
+      "drinkId": 15
+    },
+    {
+      "id": 134,
+      "userId": 14,
+      "drinkId": 28
+    },
+    {
+      "id": 135,
+      "userId": 14,
+      "drinkId": 13
+    },
+    {
+      "id": 136,
+      "userId": 14,
+      "drinkId": 19
+    },
+    {
+      "id": 137,
+      "userId": 14,
+      "drinkId": 6
+    },
+    {
+      "id": 138,
+      "userId": 14,
+      "drinkId": 20
+    },
+    {
+      "id": 139,
+      "userId": 14,
+      "drinkId": 1
+    },
+    {
+      "id": 140,
+      "userId": 14,
+      "drinkId": 3
+    },
+    {
+      "id": 141,
+      "userId": 15,
+      "drinkId": 27
+    },
+    {
+      "id": 142,
+      "userId": 15,
+      "drinkId": 12
+    },
+    {
+      "id": 143,
+      "userId": 15,
+      "drinkId": 6
+    },
+    {
+      "id": 144,
+      "userId": 15,
+      "drinkId": 8
+    },
+    {
+      "id": 145,
+      "userId": 15,
+      "drinkId": 10
+    },
+    {
+      "id": 146,
+      "userId": 15,
+      "drinkId": 23
+    },
+    {
+      "id": 147,
+      "userId": 15,
+      "drinkId": 18
+    },
+    {
+      "id": 148,
+      "userId": 15,
+      "drinkId": 20
+    },
+    {
+      "id": 149,
+      "userId": 15,
+      "drinkId": 30
+    },
+    {
+      "id": 150,
+      "userId": 15,
+      "drinkId": 2
+    },
+    {
+      "id": 151,
+      "userId": 16,
+      "drinkId": 27
+    },
+    {
+      "id": 152,
+      "userId": 16,
+      "drinkId": 11
+    },
+    {
+      "id": 153,
+      "userId": 16,
+      "drinkId": 14
+    },
+    {
+      "id": 154,
+      "userId": 16,
+      "drinkId": 6
+    },
+    {
+      "id": 155,
+      "userId": 16,
+      "drinkId": 3
+    },
+    {
+      "id": 156,
+      "userId": 16,
+      "drinkId": 13
+    },
+    {
+      "id": 157,
+      "userId": 16,
+      "drinkId": 22
+    },
+    {
+      "id": 158,
+      "userId": 16,
+      "drinkId": 4
+    },
+    {
+      "id": 159,
+      "userId": 16,
+      "drinkId": 7
+    },
+    {
+      "id": 160,
+      "userId": 16,
+      "drinkId": 19
+    },
+    {
+      "id": 161,
+      "userId": 17,
+      "drinkId": 28
+    },
+    {
+      "id": 162,
+      "userId": 17,
+      "drinkId": 26
+    },
+    {
+      "id": 163,
+      "userId": 17,
+      "drinkId": 30
+    },
+    {
+      "id": 164,
+      "userId": 17,
+      "drinkId": 21
+    },
+    {
+      "id": 165,
+      "userId": 17,
+      "drinkId": 11
+    },
+    {
+      "id": 166,
+      "userId": 17,
+      "drinkId": 14
+    },
+    {
+      "id": 167,
+      "userId": 17,
+      "drinkId": 16
+    },
+    {
+      "id": 168,
+      "userId": 17,
+      "drinkId": 1
+    },
+    {
+      "id": 169,
+      "userId": 17,
+      "drinkId": 22
+    },
+    {
+      "id": 170,
+      "userId": 17,
+      "drinkId": 2
+    },
+    {
+      "id": 171,
+      "userId": 18,
+      "drinkId": 30
+    },
+    {
+      "id": 172,
+      "userId": 18,
+      "drinkId": 25
+    },
+    {
+      "id": 173,
+      "userId": 18,
+      "drinkId": 12
+    },
+    {
+      "id": 174,
+      "userId": 18,
+      "drinkId": 17
+    },
+    {
+      "id": 175,
+      "userId": 18,
+      "drinkId": 18
+    },
+    {
+      "id": 176,
+      "userId": 18,
+      "drinkId": 8
+    },
+    {
+      "id": 177,
+      "userId": 18,
+      "drinkId": 27
+    },
+    {
+      "id": 178,
+      "userId": 18,
+      "drinkId": 23
+    },
+    {
+      "id": 179,
+      "userId": 18,
+      "drinkId": 3
+    },
+    {
+      "id": 180,
+      "userId": 18,
+      "drinkId": 21
+    },
+    {
+      "id": 181,
+      "userId": 19,
+      "drinkId": 10
+    },
+    {
+      "id": 182,
+      "userId": 19,
+      "drinkId": 21
+    },
+    {
+      "id": 183,
+      "userId": 19,
+      "drinkId": 2
+    },
+    {
+      "id": 184,
+      "userId": 19,
+      "drinkId": 14
+    },
+    {
+      "id": 185,
+      "userId": 19,
+      "drinkId": 13
+    },
+    {
+      "id": 186,
+      "userId": 19,
+      "drinkId": 27
+    },
+    {
+      "id": 187,
+      "userId": 19,
+      "drinkId": 24
+    },
+    {
+      "id": 188,
+      "userId": 19,
+      "drinkId": 16
+    },
+    {
+      "id": 189,
+      "userId": 19,
+      "drinkId": 12
+    },
+    {
+      "id": 190,
+      "userId": 19,
+      "drinkId": 30
+    },
+    {
+      "id": 191,
+      "userId": 20,
+      "drinkId": 2
+    },
+    {
+      "id": 192,
+      "userId": 20,
+      "drinkId": 17
+    },
+    {
+      "id": 193,
+      "userId": 20,
+      "drinkId": 27
+    },
+    {
+      "id": 194,
+      "userId": 20,
+      "drinkId": 21
+    },
+    {
+      "id": 195,
+      "userId": 20,
+      "drinkId": 22
+    },
+    {
+      "id": 196,
+      "userId": 20,
+      "drinkId": 8
+    },
+    {
+      "id": 197,
+      "userId": 20,
+      "drinkId": 18
+    },
+    {
+      "id": 198,
+      "userId": 20,
+      "drinkId": 10
+    },
+    {
+      "id": 199,
+      "userId": 20,
+      "drinkId": 25
+    },
+    {
+      "id": 200,
+      "userId": 20,
+      "drinkId": 12
+    }
+  ],
+  "userShopCollections": [
+    {
+      "id": 1,
+      "userId": 1,
+      "shopId": 8
+    },
+    {
+      "id": 2,
+      "userId": 1,
+      "shopId": 11
+    },
+    {
+      "id": 3,
+      "userId": 1,
+      "shopId": 3
+    },
+    {
+      "id": 4,
+      "userId": 1,
+      "shopId": 7
+    },
+    {
+      "id": 5,
+      "userId": 1,
+      "shopId": 2
+    },
+    {
+      "id": 6,
+      "userId": 1,
+      "shopId": 15
+    },
+    {
+      "id": 7,
+      "userId": 1,
+      "shopId": 6
+    },
+    {
+      "id": 8,
+      "userId": 1,
+      "shopId": 14
+    },
+    {
+      "id": 9,
+      "userId": 1,
+      "shopId": 12
+    },
+    {
+      "id": 10,
+      "userId": 1,
+      "shopId": 1
+    },
+    {
+      "id": 11,
+      "userId": 2,
+      "shopId": 10
+    },
+    {
+      "id": 12,
+      "userId": 2,
+      "shopId": 11
+    },
+    {
+      "id": 13,
+      "userId": 2,
+      "shopId": 7
+    },
+    {
+      "id": 14,
+      "userId": 2,
+      "shopId": 5
+    },
+    {
+      "id": 15,
+      "userId": 2,
+      "shopId": 2
+    },
+    {
+      "id": 16,
+      "userId": 2,
+      "shopId": 1
+    },
+    {
+      "id": 17,
+      "userId": 2,
+      "shopId": 9
+    },
+    {
+      "id": 18,
+      "userId": 2,
+      "shopId": 4
+    },
+    {
+      "id": 19,
+      "userId": 2,
+      "shopId": 14
+    },
+    {
+      "id": 20,
+      "userId": 2,
+      "shopId": 6
+    },
+    {
+      "id": 21,
+      "userId": 3,
+      "shopId": 8
+    },
+    {
+      "id": 22,
+      "userId": 3,
+      "shopId": 4
+    },
+    {
+      "id": 23,
+      "userId": 3,
+      "shopId": 9
+    },
+    {
+      "id": 24,
+      "userId": 3,
+      "shopId": 12
+    },
+    {
+      "id": 25,
+      "userId": 3,
+      "shopId": 3
+    },
+    {
+      "id": 26,
+      "userId": 3,
+      "shopId": 15
+    },
+    {
+      "id": 27,
+      "userId": 3,
+      "shopId": 13
+    },
+    {
+      "id": 28,
+      "userId": 3,
+      "shopId": 2
+    },
+    {
+      "id": 29,
+      "userId": 3,
+      "shopId": 11
+    },
+    {
+      "id": 30,
+      "userId": 3,
+      "shopId": 14
+    },
+    {
+      "id": 31,
+      "userId": 4,
+      "shopId": 14
+    },
+    {
+      "id": 32,
+      "userId": 4,
+      "shopId": 4
+    },
+    {
+      "id": 33,
+      "userId": 4,
+      "shopId": 12
+    },
+    {
+      "id": 34,
+      "userId": 4,
+      "shopId": 5
+    },
+    {
+      "id": 35,
+      "userId": 4,
+      "shopId": 7
+    },
+    {
+      "id": 36,
+      "userId": 4,
+      "shopId": 3
+    },
+    {
+      "id": 37,
+      "userId": 4,
+      "shopId": 1
+    },
+    {
+      "id": 38,
+      "userId": 4,
+      "shopId": 11
+    },
+    {
+      "id": 39,
+      "userId": 4,
+      "shopId": 2
+    },
+    {
+      "id": 40,
+      "userId": 4,
+      "shopId": 13
+    },
+    {
+      "id": 41,
+      "userId": 5,
+      "shopId": 4
+    },
+    {
+      "id": 42,
+      "userId": 5,
+      "shopId": 13
+    },
+    {
+      "id": 43,
+      "userId": 5,
+      "shopId": 7
+    },
+    {
+      "id": 44,
+      "userId": 5,
+      "shopId": 14
+    },
+    {
+      "id": 45,
+      "userId": 5,
+      "shopId": 8
+    },
+    {
+      "id": 46,
+      "userId": 5,
+      "shopId": 1
+    },
+    {
+      "id": 47,
+      "userId": 5,
+      "shopId": 11
+    },
+    {
+      "id": 48,
+      "userId": 5,
+      "shopId": 9
+    },
+    {
+      "id": 49,
+      "userId": 5,
+      "shopId": 2
+    },
+    {
+      "id": 50,
+      "userId": 5,
+      "shopId": 12
+    },
+    {
+      "id": 51,
+      "userId": 6,
+      "shopId": 4
+    },
+    {
+      "id": 52,
+      "userId": 6,
+      "shopId": 10
+    },
+    {
+      "id": 53,
+      "userId": 6,
+      "shopId": 2
+    },
+    {
+      "id": 54,
+      "userId": 6,
+      "shopId": 15
+    },
+    {
+      "id": 55,
+      "userId": 6,
+      "shopId": 9
+    },
+    {
+      "id": 56,
+      "userId": 6,
+      "shopId": 14
+    },
+    {
+      "id": 57,
+      "userId": 6,
+      "shopId": 5
+    },
+    {
+      "id": 58,
+      "userId": 6,
+      "shopId": 11
+    },
+    {
+      "id": 59,
+      "userId": 6,
+      "shopId": 12
+    },
+    {
+      "id": 60,
+      "userId": 6,
+      "shopId": 6
+    },
+    {
+      "id": 61,
+      "userId": 7,
+      "shopId": 1
+    },
+    {
+      "id": 62,
+      "userId": 7,
+      "shopId": 14
+    },
+    {
+      "id": 63,
+      "userId": 7,
+      "shopId": 12
+    },
+    {
+      "id": 64,
+      "userId": 7,
+      "shopId": 11
+    },
+    {
+      "id": 65,
+      "userId": 7,
+      "shopId": 7
+    },
+    {
+      "id": 66,
+      "userId": 7,
+      "shopId": 10
+    },
+    {
+      "id": 67,
+      "userId": 7,
+      "shopId": 5
+    },
+    {
+      "id": 68,
+      "userId": 7,
+      "shopId": 13
+    },
+    {
+      "id": 69,
+      "userId": 7,
+      "shopId": 15
+    },
+    {
+      "id": 70,
+      "userId": 7,
+      "shopId": 4
+    },
+    {
+      "id": 71,
+      "userId": 8,
+      "shopId": 13
+    },
+    {
+      "id": 72,
+      "userId": 8,
+      "shopId": 11
+    },
+    {
+      "id": 73,
+      "userId": 8,
+      "shopId": 7
+    },
+    {
+      "id": 74,
+      "userId": 8,
+      "shopId": 5
+    },
+    {
+      "id": 75,
+      "userId": 8,
+      "shopId": 8
+    },
+    {
+      "id": 76,
+      "userId": 8,
+      "shopId": 4
+    },
+    {
+      "id": 77,
+      "userId": 8,
+      "shopId": 1
+    },
+    {
+      "id": 78,
+      "userId": 8,
+      "shopId": 3
+    },
+    {
+      "id": 79,
+      "userId": 8,
+      "shopId": 10
+    },
+    {
+      "id": 80,
+      "userId": 8,
+      "shopId": 14
+    },
+    {
+      "id": 81,
+      "userId": 9,
+      "shopId": 6
+    },
+    {
+      "id": 82,
+      "userId": 9,
+      "shopId": 10
+    },
+    {
+      "id": 83,
+      "userId": 9,
+      "shopId": 3
+    },
+    {
+      "id": 84,
+      "userId": 9,
+      "shopId": 5
+    },
+    {
+      "id": 85,
+      "userId": 9,
+      "shopId": 7
+    },
+    {
+      "id": 86,
+      "userId": 9,
+      "shopId": 13
+    },
+    {
+      "id": 87,
+      "userId": 9,
+      "shopId": 15
+    },
+    {
+      "id": 88,
+      "userId": 9,
+      "shopId": 11
+    },
+    {
+      "id": 89,
+      "userId": 9,
+      "shopId": 14
+    },
+    {
+      "id": 90,
+      "userId": 9,
+      "shopId": 1
+    },
+    {
+      "id": 91,
+      "userId": 10,
+      "shopId": 3
+    },
+    {
+      "id": 92,
+      "userId": 10,
+      "shopId": 15
+    },
+    {
+      "id": 93,
+      "userId": 10,
+      "shopId": 9
+    },
+    {
+      "id": 94,
+      "userId": 10,
+      "shopId": 12
+    },
+    {
+      "id": 95,
+      "userId": 10,
+      "shopId": 7
+    },
+    {
+      "id": 96,
+      "userId": 10,
+      "shopId": 4
+    },
+    {
+      "id": 97,
+      "userId": 10,
+      "shopId": 14
+    },
+    {
+      "id": 98,
+      "userId": 10,
+      "shopId": 1
+    },
+    {
+      "id": 99,
+      "userId": 10,
+      "shopId": 2
+    },
+    {
+      "id": 100,
+      "userId": 10,
+      "shopId": 11
+    },
+    {
+      "id": 101,
+      "userId": 11,
+      "shopId": 7
+    },
+    {
+      "id": 102,
+      "userId": 11,
+      "shopId": 13
+    },
+    {
+      "id": 103,
+      "userId": 11,
+      "shopId": 10
+    },
+    {
+      "id": 104,
+      "userId": 11,
+      "shopId": 12
+    },
+    {
+      "id": 105,
+      "userId": 11,
+      "shopId": 4
+    },
+    {
+      "id": 106,
+      "userId": 11,
+      "shopId": 1
+    },
+    {
+      "id": 107,
+      "userId": 11,
+      "shopId": 15
+    },
+    {
+      "id": 108,
+      "userId": 11,
+      "shopId": 11
+    },
+    {
+      "id": 109,
+      "userId": 11,
+      "shopId": 2
+    },
+    {
+      "id": 110,
+      "userId": 11,
+      "shopId": 6
+    },
+    {
+      "id": 111,
+      "userId": 12,
+      "shopId": 10
+    },
+    {
+      "id": 112,
+      "userId": 12,
+      "shopId": 8
+    },
+    {
+      "id": 113,
+      "userId": 12,
+      "shopId": 2
+    },
+    {
+      "id": 114,
+      "userId": 12,
+      "shopId": 14
+    },
+    {
+      "id": 115,
+      "userId": 12,
+      "shopId": 6
+    },
+    {
+      "id": 116,
+      "userId": 12,
+      "shopId": 1
+    },
+    {
+      "id": 117,
+      "userId": 12,
+      "shopId": 5
+    },
+    {
+      "id": 118,
+      "userId": 12,
+      "shopId": 11
+    },
+    {
+      "id": 119,
+      "userId": 12,
+      "shopId": 7
+    },
+    {
+      "id": 120,
+      "userId": 12,
+      "shopId": 9
+    },
+    {
+      "id": 121,
+      "userId": 13,
+      "shopId": 12
+    },
+    {
+      "id": 122,
+      "userId": 13,
+      "shopId": 1
+    },
+    {
+      "id": 123,
+      "userId": 13,
+      "shopId": 13
+    },
+    {
+      "id": 124,
+      "userId": 13,
+      "shopId": 15
+    },
+    {
+      "id": 125,
+      "userId": 13,
+      "shopId": 6
+    },
+    {
+      "id": 126,
+      "userId": 13,
+      "shopId": 14
+    },
+    {
+      "id": 127,
+      "userId": 13,
+      "shopId": 9
+    },
+    {
+      "id": 128,
+      "userId": 13,
+      "shopId": 5
+    },
+    {
+      "id": 129,
+      "userId": 13,
+      "shopId": 10
+    },
+    {
+      "id": 130,
+      "userId": 13,
+      "shopId": 8
+    },
+    {
+      "id": 131,
+      "userId": 14,
+      "shopId": 12
+    },
+    {
+      "id": 132,
+      "userId": 14,
+      "shopId": 3
+    },
+    {
+      "id": 133,
+      "userId": 14,
+      "shopId": 13
+    },
+    {
+      "id": 134,
+      "userId": 14,
+      "shopId": 8
+    },
+    {
+      "id": 135,
+      "userId": 14,
+      "shopId": 9
+    },
+    {
+      "id": 136,
+      "userId": 14,
+      "shopId": 2
+    },
+    {
+      "id": 137,
+      "userId": 14,
+      "shopId": 14
+    },
+    {
+      "id": 138,
+      "userId": 14,
+      "shopId": 11
+    },
+    {
+      "id": 139,
+      "userId": 14,
+      "shopId": 15
+    },
+    {
+      "id": 140,
+      "userId": 14,
+      "shopId": 7
+    },
+    {
+      "id": 141,
+      "userId": 15,
+      "shopId": 5
+    },
+    {
+      "id": 142,
+      "userId": 15,
+      "shopId": 7
+    },
+    {
+      "id": 143,
+      "userId": 15,
+      "shopId": 6
+    },
+    {
+      "id": 144,
+      "userId": 15,
+      "shopId": 10
+    },
+    {
+      "id": 145,
+      "userId": 15,
+      "shopId": 15
+    },
+    {
+      "id": 146,
+      "userId": 15,
+      "shopId": 8
+    },
+    {
+      "id": 147,
+      "userId": 15,
+      "shopId": 2
+    },
+    {
+      "id": 148,
+      "userId": 15,
+      "shopId": 14
+    },
+    {
+      "id": 149,
+      "userId": 15,
+      "shopId": 9
+    },
+    {
+      "id": 150,
+      "userId": 15,
+      "shopId": 13
+    },
+    {
+      "id": 151,
+      "userId": 16,
+      "shopId": 2
+    },
+    {
+      "id": 152,
+      "userId": 16,
+      "shopId": 9
+    },
+    {
+      "id": 153,
+      "userId": 16,
+      "shopId": 5
+    },
+    {
+      "id": 154,
+      "userId": 16,
+      "shopId": 10
+    },
+    {
+      "id": 155,
+      "userId": 16,
+      "shopId": 7
+    },
+    {
+      "id": 156,
+      "userId": 16,
+      "shopId": 13
+    },
+    {
+      "id": 157,
+      "userId": 16,
+      "shopId": 15
+    },
+    {
+      "id": 158,
+      "userId": 16,
+      "shopId": 14
+    },
+    {
+      "id": 159,
+      "userId": 16,
+      "shopId": 3
+    },
+    {
+      "id": 160,
+      "userId": 16,
+      "shopId": 6
+    },
+    {
+      "id": 161,
+      "userId": 17,
+      "shopId": 2
+    },
+    {
+      "id": 162,
+      "userId": 17,
+      "shopId": 15
+    },
+    {
+      "id": 163,
+      "userId": 17,
+      "shopId": 8
+    },
+    {
+      "id": 164,
+      "userId": 17,
+      "shopId": 1
+    },
+    {
+      "id": 165,
+      "userId": 17,
+      "shopId": 13
+    },
+    {
+      "id": 166,
+      "userId": 17,
+      "shopId": 14
+    },
+    {
+      "id": 167,
+      "userId": 17,
+      "shopId": 11
+    },
+    {
+      "id": 168,
+      "userId": 17,
+      "shopId": 12
+    },
+    {
+      "id": 169,
+      "userId": 17,
+      "shopId": 7
+    },
+    {
+      "id": 170,
+      "userId": 17,
+      "shopId": 6
+    },
+    {
+      "id": 171,
+      "userId": 18,
+      "shopId": 4
+    },
+    {
+      "id": 172,
+      "userId": 18,
+      "shopId": 13
+    },
+    {
+      "id": 173,
+      "userId": 18,
+      "shopId": 1
+    },
+    {
+      "id": 174,
+      "userId": 18,
+      "shopId": 2
+    },
+    {
+      "id": 175,
+      "userId": 18,
+      "shopId": 12
+    },
+    {
+      "id": 176,
+      "userId": 18,
+      "shopId": 15
+    },
+    {
+      "id": 177,
+      "userId": 18,
+      "shopId": 10
+    },
+    {
+      "id": 178,
+      "userId": 18,
+      "shopId": 3
+    },
+    {
+      "id": 179,
+      "userId": 18,
+      "shopId": 9
+    },
+    {
+      "id": 180,
+      "userId": 18,
+      "shopId": 14
+    },
+    {
+      "id": 181,
+      "userId": 19,
+      "shopId": 9
+    },
+    {
+      "id": 182,
+      "userId": 19,
+      "shopId": 6
+    },
+    {
+      "id": 183,
+      "userId": 19,
+      "shopId": 3
+    },
+    {
+      "id": 184,
+      "userId": 19,
+      "shopId": 1
+    },
+    {
+      "id": 185,
+      "userId": 19,
+      "shopId": 5
+    },
+    {
+      "id": 186,
+      "userId": 19,
+      "shopId": 11
+    },
+    {
+      "id": 187,
+      "userId": 19,
+      "shopId": 8
+    },
+    {
+      "id": 188,
+      "userId": 19,
+      "shopId": 13
+    },
+    {
+      "id": 189,
+      "userId": 19,
+      "shopId": 12
+    },
+    {
+      "id": 190,
+      "userId": 19,
+      "shopId": 15
+    },
+    {
+      "id": 191,
+      "userId": 20,
+      "shopId": 7
+    },
+    {
+      "id": 192,
+      "userId": 20,
+      "shopId": 11
+    },
+    {
+      "id": 193,
+      "userId": 20,
+      "shopId": 12
+    },
+    {
+      "id": 194,
+      "userId": 20,
+      "shopId": 3
+    },
+    {
+      "id": 195,
+      "userId": 20,
+      "shopId": 15
+    },
+    {
+      "id": 196,
+      "userId": 20,
+      "shopId": 9
+    },
+    {
+      "id": 197,
+      "userId": 20,
+      "shopId": 5
+    },
+    {
+      "id": 198,
+      "userId": 20,
+      "shopId": 8
+    },
+    {
+      "id": 199,
+      "userId": 20,
+      "shopId": 2
+    },
+    {
+      "id": 200,
+      "userId": 20,
+      "shopId": 10
+    }
+  ],
+  "feedbacks": [
+    {
+      "id": 1,
+      "memberId": 1,
+      "content": "這家店很好",
+      "rating": 5
+    }
+  ],
+  "drinks": [
+    {
+      "id": 1,
+      "DrinkName": "芒果冰沙",
+      "TeaType": ["鮮果汁"],
+      "Ingredients": [],
+      "Description": "這杯絕對是大苑子菜單的首選推薦！以真材實料愛文芒果果肉新鮮現打，呈現出芒果天然香氣，與沁涼冰沙完美結合，每一口都是濃濃芒果香，等了一年，芒果控絕對要把握時間喝好喝滿！",
+      "StoreName": "大苑子",
+      "ImageLink": "https://raw.githubusercontent.com/ahmomoz/WhatDrink17/main/assets/images/drinks/drink-01.png"
+    },
+    {
+      "id": 2,
+      "DrinkName": "愛文翡翠",
+      "TeaType": ["綠茶"],
+      "Ingredients": [],
+      "Description": "喜愛清爽系飲品的人大苑子菜單推薦來一杯「愛文翡翠」，以甘醇的茉莉綠茶為基底，搭配新鮮芒果，果香與茶香帶出透心涼的清爽滋味，飯後來一杯解膩剛剛好！",
+      "StoreName": "大苑子",
+      "ImageLink": "https://raw.githubusercontent.com/ahmomoz/WhatDrink17/main/assets/images/drinks/drink-02.png"
+    },
+    {
+      "id": 3,
+      "DrinkName": "芝芝錫蘭紅茶",
+      "TeaType": ["紅茶"],
+      "Ingredients": [],
+      "Description": "以黃金比例的SGS認證錫蘭紅茶，結合由喜馬拉雅山玫瑰鹽與紐西蘭起司製成的濃郁芝芝，鹹香創造多層次口感，香甜又順口。",
+      "StoreName": "麻古茶坊",
+      "ImageLink": "https://raw.githubusercontent.com/ahmomoz/WhatDrink17/main/assets/images/drinks/drink-03.png"
+    },
+    {
+      "id": 4,
+      "DrinkName": "梅子冰茶",
+      "TeaType": ["鮮果汁"],
+      "Ingredients": [],
+      "Description": "以慢熬的香濃梅汁為基底，搭配新鮮的檸檬原汁，鹹酸的甜梅汁帶出檸檬的清香，最後加上2顆醃漬梅粒點綴，酸甜帶點鹹口感，是消暑、開胃最佳選擇。",
+      "StoreName": "麻古茶坊",
+      "ImageLink": "https://raw.githubusercontent.com/ahmomoz/WhatDrink17/main/assets/images/drinks/drink-04.png"
+    },
+    {
+      "id": 5,
+      "DrinkName": "伯爵紅茶拿鐵",
+      "TeaType": ["奶茶"],
+      "Ingredients": [],
+      "Description": "有著特殊佛手柑果香的伯爵紅茶搭配綠光鮮奶，茶香濃郁口感醇厚。",
+      "StoreName": "迷客夏",
+      "ImageLink": "https://raw.githubusercontent.com/ahmomoz/WhatDrink17/main/assets/images/drinks/drink-05.png"
+    },
+    {
+      "id": 6,
+      "DrinkName": "五桐茶",
+      "TeaType": ["烏龍茶"],
+      "Ingredients": [],
+      "Description": "使用獨家秘制五種茶葉沖煮的「五桐茶」，醇厚回甘、帶有焙火香氣的迷人茶韻",
+      "StoreName": "五桐號",
+      "ImageLink": "https://raw.githubusercontent.com/ahmomoz/WhatDrink17/main/assets/images/drinks/drink-06.png"
+    },
+    {
+      "id": 7,
+      "DrinkName": "桂花烏龍凍飲",
+      "TeaType": ["烏龍茶"],
+      "Ingredients": [],
+      "Description": "中焙烏龍茶製成金黃茶湯，配搭醇茶手工製作的Q彈茶凍，以淡雅清香的桂花蜜點綴，喝起來清甜不膩。",
+      "StoreName": "五桐號",
+      "ImageLink": "https://raw.githubusercontent.com/ahmomoz/WhatDrink17/main/assets/images/drinks/drink-07.png"
+    },
+    {
+      "id": 8,
+      "DrinkName": "老實人紅茶",
+      "TeaType": ["紅茶"],
+      "Ingredients": [],
+      "Description": "中杯（約 500 ml）：總熱量 153 大卡，總糖量 36 克。大杯（約 700 ml）：總熱量 199 大卡，總糖量 47 克。本品咖啡因含量 23.4 毫克（mg/100ml）。咖啡因每日攝取限量 300 毫克。孩童及孕哺婦請斟酌食用。總熱量、總糖量及咖啡因含量皆以最高值標示。紅茶茶葉產地為印度/斯里蘭卡。",
+      "StoreName": "五桐號",
+      "ImageLink": "https://raw.githubusercontent.com/ahmomoz/WhatDrink17/main/assets/images/drinks/drink-08.png"
+    },
+    {
+      "id": 9,
+      "DrinkName": "四季春+珍波椰",
+      "TeaType": ["烏龍茶"],
+      "Ingredients": ["珍珠", "波霸", "椰果"],
+      "Description": "又稱1號，四季春青茶加上珍珠、波霸及椰果，一次能吃到三種料，解膩又有飽足感，咀嚼系必嚐！",
+      "StoreName": "50嵐",
+      "ImageLink": "https://raw.githubusercontent.com/ahmomoz/WhatDrink17/main/assets/images/drinks/drink-09.png"
+    },
+    {
+      "id": 10,
+      "DrinkName": "海神",
+      "TeaType": ["鮮果汁"],
+      "Ingredients": [],
+      "Description": "以清爽日式煎茶調製,採用蜂蜜醃製過的水果搭配茶葉烘製，具有水果香氣帶有淡淡蜜香的黃金茶湯如海波動，獨創茶的神話。",
+      "StoreName": "COMEBUY",
+      "ImageLink": "https://raw.githubusercontent.com/ahmomoz/WhatDrink17/main/assets/images/drinks/drink-10.png"
+    },
+    {
+      "id": 11,
+      "DrinkName": "紅茶拿鐵",
+      "TeaType": ["紅茶", "牛奶"],
+      "Ingredients": [],
+      "Description": "現泡烏瓦紅茶加上香醇鮮乳調製而成，濃郁茶香略帶花香，更增添鮮乳的香甜，是愛好奶茶且注重健康的首選。",
+      "StoreName": "COMEBUY",
+      "ImageLink": "https://raw.githubusercontent.com/ahmomoz/WhatDrink17/main/assets/images/drinks/drink-11.png"
+    },
+    {
+      "id": 12,
+      "DrinkName": "老賴紅茶",
+      "TeaType": ["紅茶"],
+      "Ingredients": [],
+      "Description": "香氣與茶底兼具，特選南投好茶，採用台糖的二號砂糖，提升紅茶的香氣與濃度，喝起來更有一番古早味。",
+      "StoreName": "老賴茶棧",
+      "ImageLink": "https://raw.githubusercontent.com/ahmomoz/WhatDrink17/main/assets/images/drinks/drink-12.png"
+    },
+    {
+      "id": 13,
+      "DrinkName": "冬瓜檸檬",
+      "TeaType": ["冬瓜茶", "鮮果汁"],
+      "Ingredients": [],
+      "Description": "檸檬與冬瓜茶的完美結合，特別推薦給討厭炎熱天氣的您。",
+      "StoreName": "老賴茶棧",
+      "ImageLink": "https://raw.githubusercontent.com/ahmomoz/WhatDrink17/main/assets/images/drinks/drink-13.png"
+    },
+    {
+      "id": 14,
+      "DrinkName": "檸檬春烏龍",
+      "TeaType": ["烏龍茶", "鮮果汁"],
+      "Ingredients": [],
+      "Description": "使用每日現榨的屏東九如新鮮檸檬原汁，配上完美比例的「春烏龍」，喝得到烏龍的清甜，又帶有檸檬的酸香，清爽解膩無負擔」",
+      "StoreName": "得正",
+      "ImageLink": "https://raw.githubusercontent.com/ahmomoz/WhatDrink17/main/assets/images/drinks/drink-14.png"
+    },
+    {
+      "id": 15,
+      "DrinkName": "芝士奶蓋春烏龍",
+      "TeaType": ["烏龍茶"],
+      "Ingredients": ["奶蓋"],
+      "Description": "厚實綿密的鹹奶蓋，加上「春烏龍」茶香，溫潤順口且不苦澀，雖然是芝士但完全不會膩口，而且喝完鼻腔會有烏龍茶的餘韻香氣",
+      "StoreName": "得正",
+      "ImageLink": "https://raw.githubusercontent.com/ahmomoz/WhatDrink17/main/assets/images/drinks/drink-15.png"
+    },
+    {
+      "id": 16,
+      "DrinkName": "觀音拿鐵",
+      "TeaType": ["烏龍茶", "牛奶"],
+      "Ingredients": [],
+      "Description": "將鐵觀音的硬頸與鮮奶的溫良交疊出一種不可思議的纏綿。用豐純濃綿的鮮奶做基底，前香甜蜜不膩，後韻是耐人尋味的觀音焙韻，每一口都扣人心弦無法忘懷。",
+      "StoreName": "茶湯會",
+      "ImageLink": "https://raw.githubusercontent.com/ahmomoz/WhatDrink17/main/assets/images/drinks/drink-16.png"
+    },
+    {
+      "id": 17,
+      "DrinkName": "海鹽奶蓋琥珀烏龍",
+      "TeaType": ["烏龍茶"],
+      "Ingredients": ["奶蓋"],
+      "Description": "琥珀茶前段果香明顯，後段發沉韻。加了奶蓋?出更多層次感。你追求且享受寧靜。對生活有責任感，懂得安排自己的事業。個性小悶騷，害羞又想表現。",
+      "StoreName": "抿茶",
+      "ImageLink": "https://raw.githubusercontent.com/ahmomoz/WhatDrink17/main/assets/images/drinks/drink-17.png"
+    },
+    {
+      "id": 18,
+      "DrinkName": "麥湯拿鐵",
+      "TeaType": ["麥茶", "牛奶"],
+      "Ingredients": [],
+      "Description": "使用我們招牌御用鮮乳，特有重乳香，味道香醇奶香濃，搭配熟識燻茶中的麥茶，有著濃郁大麥香氣。",
+      "StoreName": "双十八木",
+      "ImageLink": "https://raw.githubusercontent.com/ahmomoz/WhatDrink17/main/assets/images/drinks/drink-18.png"
+    },
+    {
+      "id": 19,
+      "DrinkName": "小時候秘密",
+      "TeaType": ["牛奶", "鮮果汁"],
+      "Ingredients": [],
+      "Description": "金蘋果牛奶搭配乳酸菌， 清甜蘋果香，順口不甜膩。",
+      "StoreName": "双十八木",
+      "ImageLink": "https://raw.githubusercontent.com/ahmomoz/WhatDrink17/main/assets/images/drinks/drink-19.png"
+    },
+    {
+      "id": 20,
+      "DrinkName": "新南黑糖牛乳",
+      "TeaType": ["牛奶"],
+      "Ingredients": [],
+      "Description": "嚴選來自台南獨家製糖秘方，製作出最正宗的濃、醇、香，整杯不加一滴水，只有黑糖跟牛乳，而濃郁的黑糖焦香伴隨著牛乳香氣，讓人有種喝布丁奶茶的錯覺，真的非常好喝，喜愛黑糖牛奶的人一定要試試這杯！",
+      "StoreName": "双十八木",
+      "ImageLink": "https://raw.githubusercontent.com/ahmomoz/WhatDrink17/main/assets/images/drinks/drink-20.png"
+    },
+    {
+      "id": 21,
+      "DrinkName": "春芽冷露",
+      "TeaType": ["冬瓜茶", "綠茶"],
+      "Ingredients": [],
+      "Description": "春芽冷露是一股耐人尋味的質感，如同愛好茶酒和詩詞的阿伯。冬瓜陳年的尾韻，於茶葉清甜圓潤的餘韻下回甘，兩者所釋放的渾厚香氣，尋尋覓覓使人意猶未盡，適合與文學一同啜飲。",
+      "StoreName": "可不可",
+      "ImageLink": "https://raw.githubusercontent.com/ahmomoz/WhatDrink17/main/assets/images/drinks/drink-21.png"
+    },
+    {
+      "id": 22,
+      "DrinkName": "熟成歐蕾",
+      "TeaType": ["紅茶", "牛奶"],
+      "Ingredients": [],
+      "Description": "渲染漸變的茶色，猶如街頭嬉皮風趣的男子，口中恣意地哼著音階。濃郁的紅茶香，本是味覺記憶中的絕品，與溫順甘醇的鮮奶兩相平衡，為奶茶的底蘊更添一股味蕾衝擊，絲滑細膩使人覺醒。",
+      "StoreName": "可不可",
+      "ImageLink": "https://raw.githubusercontent.com/ahmomoz/WhatDrink17/main/assets/images/drinks/drink-22.png"
+    },
+    {
+      "id": 23,
+      "DrinkName": "桂花凍胭脂紅玉",
+      "TeaType": ["紅茶"],
+      "Ingredients": [],
+      "Description": "台茶十八號-紅玉紅茶，滋味濃醇鮮爽，帶有淡淡肉桂及薄荷香氣，有台灣香之美譽，搭配清新淡雅口感滑嫩的自製桂花凍。",
+      "StoreName": "烏弄",
+      "ImageLink": "https://raw.githubusercontent.com/ahmomoz/WhatDrink17/main/assets/images/drinks/drink-23.png"
+    },
+    {
+      "id": 24,
+      "DrinkName": "黑糖珍珠鮮奶",
+      "TeaType": ["牛奶"],
+      "Ingredients": ["珍珠"],
+      "Description": "蟬聯銷售排行榜第一，代表性0.85cm祖傳黑糖蜜製珍珠加上香濃鮮奶，完美交融，香濃不膩",
+      "StoreName": "珍煮丹",
+      "ImageLink": "https://raw.githubusercontent.com/ahmomoz/WhatDrink17/main/assets/images/drinks/drink-24.png"
+    },
+    {
+      "id": 25,
+      "DrinkName": "乳酪奶蓋茶(金烏)",
+      "TeaType": ["烏龍茶"],
+      "Ingredients": ["奶蓋"],
+      "Description": "獨家特有的焦糖乳酪奶蓋、上頭搭配著Oreo碎片、香甜滑順的口感讓你一喝就上癮",
+      "StoreName": "曼士茶",
+      "ImageLink": "https://raw.githubusercontent.com/ahmomoz/WhatDrink17/main/assets/images/drinks/drink-25.png"
+    },
+    {
+      "id": 26,
+      "DrinkName": "奶茶三兄弟",
+      "TeaType": ["奶茶"],
+      "Ingredients": ["珍珠", "仙草", "布丁"],
+      "Description": "香濃奶茶搭配布丁、珍珠及仙草，一次就有三種口感",
+      "StoreName": "CoCo都可",
+      "ImageLink": "https://raw.githubusercontent.com/ahmomoz/WhatDrink17/main/assets/images/drinks/drink-26.png"
+    },
+    {
+      "id": 27,
+      "DrinkName": "烏龍綠茶",
+      "TeaType": ["烏龍茶", "綠茶"],
+      "Ingredients": [],
+      "Description": "澄澈的黃褐色茶湯，入口清新芳香、甘醇渾厚，微有炭燒味，回甘馥郁而綿長。",
+      "StoreName": "清心",
+      "ImageLink": "https://raw.githubusercontent.com/ahmomoz/WhatDrink17/main/assets/images/drinks/drink-27.png"
+    },
+    {
+      "id": 28,
+      "DrinkName": "烏龍奶茶",
+      "TeaType": ["烏龍茶", "奶茶"],
+      "Ingredients": [],
+      "Description": "甘醇渾厚的「烏龍綠茶」佐醇正香濃的「嚴選奶精」，茶味與奶香完美交融整合。",
+      "StoreName": "清心",
+      "ImageLink": "https://raw.githubusercontent.com/ahmomoz/WhatDrink17/main/assets/images/drinks/drink-28.png"
+    },
+    {
+      "id": 29,
+      "DrinkName": "凍春山",
+      "TeaType": ["烏龍茶", "鮮果汁"],
+      "Ingredients": [],
+      "Description": "凍頂烏龍、春芽金桔、招財蘋果、黃金柳橙、數錢百香、水晶蘆薈多 C 開運飲茶香品果物！",
+      "StoreName": "武林茶",
+      "ImageLink": "https://raw.githubusercontent.com/ahmomoz/WhatDrink17/main/assets/images/drinks/drink-29.png"
+    },
+    {
+      "id": 30,
+      "DrinkName": "衫夏露甘蔗青",
+      "TeaType": ["鮮果汁"],
+      "Ingredients": [],
+      "Description": "高山青茶及 100％ 白甘蔗汁",
+      "StoreName": "武林茶",
+      "ImageLink": "https://raw.githubusercontent.com/ahmomoz/WhatDrink17/main/assets/images/drinks/drink-30.png"
+    }
+  ]
+}
